@@ -29,15 +29,26 @@
   url = "/tutorial/lorem/"
 
 [[main]]
-  name = "Docs"
-  url = "/docs/guides/example-guide/"
-# url = "/docs/1.0/prologue/introduction/"
+  name = "About"
+  url = "/about/"
   weight = 10
+
+[[main]]
+  name = "Tutorials"
+  url = "/tutorials/"
+  weight = 20
 
 [[main]]
   name = "Blog"
   url = "/blog/"
   weight = 30
+
+[[main]]
+  name = "Docs"
+  url = "/docs/guides/example-guide/"
+# url = "/docs/1.0/prologue/introduction/"
+  weight = 40
+
 
 # [[social]]
 #   name = "X"

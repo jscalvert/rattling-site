@@ -1,5 +1,5 @@
-title = "My Docs"
-baseurl = "http://localhost/"
+title = "Rattling"
+baseurl = "http://rattling.org/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
@@ -84,3 +84,14 @@ copyRight = "Copyright (c) 2020-2024 Thulite"
   hint = "photo"
   quality = 85
   resampleFilter = "Lanczos"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
+[params]
+  math = true

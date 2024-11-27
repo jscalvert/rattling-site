@@ -2,6 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tutorials/tutorial-for-physicists/</loc>
+    <lastmod>2024-11-27T01:33:27-06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tutorials/tutorial-for-mathematicians/</loc>
+    <lastmod>2024-11-27T01:33:27-06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tutorials/tutorial-for-life-scientists/</loc>
+    <lastmod>2024-11-27T01:33:27-06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tutorials/tutorial-for-engineers/</loc>
+    <lastmod>2024-11-27T01:33:27-06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/blog/example-post/</loc>
     <lastmod>2023-09-07T16:27:22+02:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -39,6 +59,16 @@
   </url><url>
     <loc>http://localhost:1313/docs/</loc>
     <lastmod>2023-09-07T16:12:03+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tutorials/</loc>
+    <lastmod>2024-11-27T01:33:27-06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/about/</loc>
+    <lastmod>2024-11-27T01:13:56-06:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>

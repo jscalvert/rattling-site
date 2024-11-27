@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/Users/jacobcalvert/Documents/GitHub/thulite-project",
+	"sourceRoot": "/Users/jacobcalvert/Documents/GitHub/rattling-site",
 	"sources": [
 		"node_modules/@thulite/core/assets/scss/app.scss",
 		"node_modules/bootstrap/scss/_functions.scss",
