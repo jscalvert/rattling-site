@@ -22,20 +22,14 @@
   identifier = "lorem"
   url = "/guide/lorem/"
 
-[[tutorial]]
-  name = "Lorem"
-  weight = 10
-  identifier = "lorem"
-  url = "/tutorial/lorem/"
-
 [[main]]
   name = "About"
   url = "/about/"
   weight = 10
 
 [[main]]
-  name = "Tutorials"
-  url = "/tutorials/"
+  name = "Learn"
+  url = "/docs/explanation/first-things/"
   weight = 20
 
 [[main]]
@@ -45,9 +39,14 @@
 
 [[main]]
   name = "Docs"
-  url = "/docs/guides/example-guide/"
+  url = "/docs/guides/example/"
 # url = "/docs/1.0/prologue/introduction/"
   weight = 40
+
+[[main]]
+  name = "Media"
+  url = "/media/"
+  weight = 50
 
 
 # [[social]]
