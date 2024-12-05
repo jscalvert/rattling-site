@@ -92,6 +92,6 @@ copyRight = "Copyright (c) 2020–2024 rattling.org"
         enable = true
         [markup.goldmark.extensions.passthrough.delimiters]
           block = [['\[', '\]'], ['$$', '$$']]
-          inline = [['\(', '\)']]
+          inline = [['\(', '\)'], ['$', '$']]
 [params]
   math = true
