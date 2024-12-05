@@ -22,7 +22,7 @@ This proves that local information is not sufficient, in general, to predict the
 
 ## How Rattling circumvents this
 
-Rattling, however, claims to do just this: it predicts the nonequilibrium steady-state \(p_{ss}(x)\) in terms of the local Rattling value \(\mathcal{R}(x)\). This is possible for two reasons:
+Rattling, however, claims to do just this: it predicts the nonequilibrium steady-state \(p_{ss}(x)\) in terms of the local Rattling value \(\mathcal{R}(y)\). This is possible for two reasons:
 
 1) the Rattling result is *approximate*
 2) it is not fully general - but rather it is *[[Typicality|typical]]*
