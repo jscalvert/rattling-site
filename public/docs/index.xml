@@ -7,7 +7,7 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright (c) 2020–2024 rattling.org</copyright>
-    <lastBuildDate>Tue, 27 Feb 2024 09:30:56 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 06 Dec 2024 15:49:26 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Resources</title>
@@ -15,6 +15,13 @@
       <pubDate>Tue, 27 Feb 2024 09:30:56 +0100</pubDate>
       <guid>http://localhost:1313/docs/resources/</guid>
       <description>&lt;p&gt;Link to valuable, relevant resources.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Core Questions</title>
+      <link>http://localhost:1313/docs/core-questions/</link>
+      <pubDate>Fri, 06 Dec 2024 15:49:26 -0600</pubDate>
+      <guid>http://localhost:1313/docs/core-questions/</guid>
+      <description>&lt;h2 id=&#34;how-common-is-rattling-in-practice&#34;&gt;How common is rattling in practice?&lt;/h2&gt;&#xA;&lt;p&gt;More precisely, how common are systems for which the rattling of a state is highly correlated with its weight in the global steady-state distribution? While there are many examples of systems for which rattling holds in this sense, it is unclear how typical rattling is among real-world systems.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
