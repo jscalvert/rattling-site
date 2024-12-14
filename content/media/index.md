@@ -24,7 +24,7 @@ Here's a talk that Pavel gave at the University of Michigan in 2021. The corresp
 
 
 
- 
+&nbsp;   
 
 Here's an earlier talk that Pavel gave at the Santa Fe Institute in 2019.
 
