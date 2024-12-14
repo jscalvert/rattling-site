@@ -242,8 +242,6 @@
     "ids": [
       "MathJax-script",
       "TableOfContents",
-      "about-its-authors",
-      "about-this-site",
       "buttonColorMode",
       "does-rattling-work-outside-of-the-steady-state",
       "doks-docs-nav",
@@ -252,6 +250,7 @@
       "how-common-is-rattling-in-practice",
       "how-does-rattling-relate-to-the-dynamics-of-the-constituents-of-a-system",
       "how-rattling-circumvents-this",
+      "its-authors",
       "offcanvasNavMain",
       "offcanvasNavMainLabel",
       "offcanvasNavSection",
@@ -264,6 +263,7 @@
       "searchToggleDesktop",
       "searchToggleMobile",
       "socialMenu",
+      "the-site",
       "toTop",
       "toc"
     ]
