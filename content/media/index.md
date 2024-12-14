@@ -12,4 +12,12 @@ seo:
   noindex: false # false (default) or true
 ---
 
-Add media here.
+Here's a talk about the Markov chain theory of rattling that Jacob gave during a visit to the Santa Fe Institute in 2024. The corresponding paper is [Calvert–Randall (2024)](/docs/reference/calvertrandall-paper/).  
+
+{{< youtube 1wO1r5dzzw0 >}}
+
+&nbsp; 
+
+Here's a talk that Pavel gave at the University of Michigan in 2021. The corresponding paper is [Chvykov et al. (2021)](chyvkov-et-al.-paper/)
+
+{{< youtube LU1a9tkzBNQ >}}
