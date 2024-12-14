@@ -33,8 +33,13 @@
   weight = 20
 
 [[main]]
-  name = "Questions"
+  name = "Core questions"
   url = "/core-questions/"
+  weight = 30
+
+  [[main]]
+  name = "Docs"
+  url = "/docs/background/rattling/"
   weight = 40
 
 [[main]]
