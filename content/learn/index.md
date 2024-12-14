@@ -1,9 +1,9 @@
 ---
-title: "Media"
-description: ""
+title: "Learn"
+description: "Start learning"
 summary: ""
-date: 2024-11-27T02:01:26-06:00
-lastmod: 2024-11-27T02:01:26-06:00
+date: 2024-11-27T01:13:56-06:00
+lastmod: 2024-11-27T01:13:56-06:00
 draft: false
 seo:
   title: "" # custom title (optional)
@@ -12,4 +12,4 @@ seo:
   noindex: false # false (default) or true
 ---
 
-Add media here.
+To begin learning, check out the [docs](/docs/background/rattling/).

@@ -29,7 +29,7 @@
 
 [[main]]
   name = "Learn"
-  url = "/docs/explanation/first-things/"
+  url = "/learn/"
   weight = 20
 
 [[main]]
@@ -39,8 +39,7 @@
 
 [[main]]
   name = "Docs"
-  url = "/docs/guides/example/"
-# url = "/docs/1.0/prologue/introduction/"
+  url = "/docs/background/rattling/"
   weight = 40
 
 [[main]]
