@@ -1,0 +1,16 @@
+---
+title: Typicality
+description: ""
+summary: ""
+date: 2024-12-04T18:53:05-06:00
+lastmod: 2024-12-04T18:53:05-06:00
+draft: false
+seo:
+  title: ""
+  description: ""
+  canonical: ""
+  noindex: false
+author: Pavel Chvykov
+---
+No adversarial fine-tuning
+other literature around typicality... (e.g., random matrix theory, Wigner nuclei)
