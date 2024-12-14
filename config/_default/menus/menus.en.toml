@@ -33,7 +33,7 @@
   weight = 20
 
 [[main]]
-  name = "Core questions"
+  name = "Core"
   url = "/core-questions/"
   weight = 30
 
