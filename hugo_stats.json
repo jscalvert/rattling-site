@@ -196,6 +196,7 @@
       "privacy",
       "px-0",
       "query-no-results",
+      "questions",
       "reading-time",
       "rounded-circle",
       "rounded-pill",
@@ -241,6 +242,8 @@
     "ids": [
       "MathJax-script",
       "TableOfContents",
+      "about-its-authors",
+      "about-this-site",
       "buttonColorMode",
       "does-rattling-work-outside-of-the-steady-state",
       "doks-docs-nav",
