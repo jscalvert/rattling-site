@@ -21,3 +21,11 @@ Here's a talk about the Markov chain theory of rattling that Jacob gave during a
 Here's a talk that Pavel gave at the University of Michigan in 2021. The corresponding paper is [Chvykov et al. (2021)](chyvkov-et-al.-paper/)
 
 {{< youtube LU1a9tkzBNQ >}}
+
+
+
+ 
+
+Here's an earlier talk that Pavel gave at the Santa Fe Institute in 2019.
+
+{{< youtube UUvf1XeMBVo >}}
