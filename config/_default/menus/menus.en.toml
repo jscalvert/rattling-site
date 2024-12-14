@@ -33,19 +33,19 @@
   weight = 20
 
 [[main]]
-  name = "Blog"
-  url = "/blog/"
-  weight = 30
+  name = "Questions"
+  url = "/core-questions/"
+  weight = 40
 
 [[main]]
-  name = "Docs"
-  url = "/docs/background/rattling/"
-  weight = 40
+  name = "Blog"
+  url = "/blog/"
+  weight = 50
 
 [[main]]
   name = "Media"
   url = "/media/"
-  weight = 50
+  weight = 60
 
 
 # [[social]]
