@@ -13,7 +13,7 @@ seo:
 author: Pavel Chvykov
 ---
 
-This classic no-go theorem from 1975  \[[Phys Rev A 12:636–638, 1975](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.12.636)]  was a response to the persistent hope in statistical physics to formulate a general "nonequilibrium Boltzmann distribution" – i.e., to express the nonequilibrium steady-state probability of any given state in terms of only *local* observables at that state. Landauer showed that this is in general impossible by providing a counter-example, illustrated in this picture:
+This classic no-go theorem from 1975 \[[Landauer75](https://rattling.org/docs/reference/literature/#landauers-blowtorch-theorem)] was a response to the persistent hope in statistical physics to formulate a general "nonequilibrium Boltzmann distribution" – i.e., to express the nonequilibrium steady-state probability of any given state in terms of only *local* observables at that state. Landauer showed that this is in general impossible by providing a counter-example, illustrated in this picture:
 
 ![image](blowtorch.png)
 

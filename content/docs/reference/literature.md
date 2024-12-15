@@ -13,3 +13,5 @@ seo:
   canonical: ""
   robots: ""
 ---
+##### [Landauer's blowtorch theorem](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.12.636)
+Landauer, Rolf. "Inadequacy of entropy and entropy derivatives in characterizing the steady state." _Physical Review A_ 12.2 (1975): 636.
