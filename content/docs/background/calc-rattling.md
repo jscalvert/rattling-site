@@ -13,7 +13,7 @@ seo:
   noindex: false
 author: Pavel Chvykov
 ---
-[For context, see [[https://rattling.org/docs/background/rattling-thermo/|Rattling Thermodynamics]]]
+\[For broader context, see [Rattling Thermodynamics](https://rattling.org/docs/background/rattling-thermo/)]
 One limitation of the Rattling framework $p_{ss}(x) \approx e^{-\gamma\; \mathcal{R}(x)}/Z \tag{1}$  is that for arbitrary far-from-equilibrium nonlinear dynamical systems, it is difficult to analytically estimate Rattling of any given state $\mathcal{R}(x)$. So we often need to explicitly measure $\mathcal{R}(x)$. This still allows us to predict global steady-state in terms of only local measurements of Rattling, and so is already practically useful, but the cases where we can predict $\mathcal{R}(x)$ analytically allow for much more prediction and control. 
 
 ## Composability of energy
