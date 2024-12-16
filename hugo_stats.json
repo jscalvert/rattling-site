@@ -1,6 +1,7 @@
 {
   "htmlElements": {
     "tags": [
+      "\\dot{x}_i,",
       "a",
       "article",
       "aside",
@@ -259,12 +260,14 @@
       "how-rattling-circumvents-this",
       "independent-systems",
       "its-authors",
+      "landauers-blowtorch-theoremhttpsjournalsapsorgpraabstract101103physreva12636",
       "offcanvasNavMain",
       "offcanvasNavMainLabel",
       "offcanvasNavSection",
       "offcanvasNavSectionLabel",
       "query",
-      "random-energy-model",
+      "random-energy-model-rem",
+      "random-rattling-model",
       "rattling-energy-interactions",
       "search-form",
       "searchModal",
