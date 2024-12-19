@@ -34,7 +34,7 @@ Rattling relates a local property of a state to its weight in the global steady-
 
 
 
-## How does rattling relate to the dynamics of the constituents of a system?
+## Rattling "one level down"
 
 Rattling is a property of a state of a system. For systems that are groups of interacting elements, a state might consist of the positions of all the elements in the group. How can we relate rattling, a property of the state, to the dynamics of the elements the state comprises? In other words, how can we go "one level down?"
 
