@@ -1,5 +1,5 @@
 ---
-title: "Basics of Markov chains"
+title: "Introduction"
 description: "Guides lead a user through a specific task they want to accomplish, often with a sequence of steps."
 summary: ""
 date: 2023-09-07T16:04:48+02:00
@@ -14,8 +14,5 @@ seo:
   robots: "" # custom robot tags (optional)
 ---
 
-Guides lead a user through a specific task they want to accomplish, often with a sequence of steps. Writing a good guide requires thinking about what your users are trying to do.
+This guide explores the Markov chain theory of rattling developed in [Calvert–Randall (2024)](/references/calvertrandall/). It assumes only basic knowledge of finite Markov chains, like the jump-hold description of continuous-time Markov chains and the major theorems about the existence and uniqueness of stationary distributions.
 
-## Further reading
-
-- Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework

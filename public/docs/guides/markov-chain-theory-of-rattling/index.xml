@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markov chain theory of rattling on Rattling</title>
+    <link>http://localhost:1313/docs/guides/markov-chain-theory-of-rattling/</link>
+    <description>Recent content in Markov chain theory of rattling on Rattling</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2020–2024 rattling.org</copyright>
+    <lastBuildDate>Thu, 07 Sep 2023 16:04:48 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/docs/guides/markov-chain-theory-of-rattling/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Basics of Markov chains</title>
+      <link>http://localhost:1313/docs/guides/markov-chain-theory-of-rattling/basics-of-markov-chains/</link>
+      <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
+      <guid>http://localhost:1313/docs/guides/markov-chain-theory-of-rattling/basics-of-markov-chains/</guid>
+      <description>&lt;p&gt;Guides lead a user through a specific task they want to accomplish, often with a sequence of steps. Writing a good guide requires thinking about what your users are trying to do.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

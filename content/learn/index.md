@@ -12,4 +12,4 @@ seo:
   noindex: false # false (default) or true
 ---
 
-To begin learning, check out the [docs](/docs/background/rattling/).
+If you'd like to understand the background of rattling theory, how the theory applies to a variety of examples, or how you can use it in your own work, check out the [docs](/docs/background/rattling/).

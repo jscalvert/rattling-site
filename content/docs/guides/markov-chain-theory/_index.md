@@ -1,5 +1,5 @@
 ---
-title: "Markov chain theory of rattling"
+title: "Markov chains & rattling"
 description: ""
 summary: ""
 date: 2024-11-30T16:35:40-06:00
