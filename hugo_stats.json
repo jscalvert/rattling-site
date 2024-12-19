@@ -244,13 +244,16 @@
     "ids": [
       "MathJax-script",
       "TableOfContents",
+      "a-priori-test-of-rattling",
       "analytic-continuation-of-rattling-landscape",
       "buttonColorMode",
       "composability-of-energy",
       "composability-of-rattling",
       "composing-over-driving-force-components",
+      "connections-of-rattling",
       "does-rattling-work-outside-of-the-steady-state",
       "doks-docs-nav",
+      "drive-information-encoding",
       "energy-vs-rattling",
       "entropy-energy-tradeoff",
       "further-reading",
@@ -265,10 +268,14 @@
       "offcanvasNavMainLabel",
       "offcanvasNavSection",
       "offcanvasNavSectionLabel",
+      "predicting-rattling",
       "query",
       "random-energy-model-rem",
       "random-rattling-model",
       "rattling-energy-interactions",
+      "rattling-for-transients",
+      "rattling-under-transformations",
+      "rattling-workflow",
       "search-form",
       "searchModal",
       "searchModalLabel",
@@ -277,9 +284,11 @@
       "searchToggleMobile",
       "socialMenu",
       "stochastic-systems",
+      "strength-of-rattling-fine-tuning",
       "the-site",
       "toTop",
-      "toc"
+      "toc",
+      "typicality-of-rattling"
     ]
   }
 }
