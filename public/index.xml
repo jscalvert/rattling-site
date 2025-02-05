@@ -1,2 +1,83 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Welcome on Rattling</title><link>/</link><description>Recent content in Welcome on Rattling</description><generator>Hugo</generator><language>en</language><copyright>Copyright (c) 2020–2024 rattling.org</copyright><lastBuildDate>Wed, 27 Nov 2024 01:33:27 -0600</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>For physicists</title><link>/tutorials/tutorial-for-physicists/</link><pubDate>Wed, 27 Nov 2024 01:33:27 -0600</pubDate><guid>/tutorials/tutorial-for-physicists/</guid><description/></item><item><title>Self-organization</title><link>/docs/background/self-organization/</link><pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate><guid>/docs/background/self-organization/</guid><description/></item><item><title>For mathematicians</title><link>/tutorials/tutorial-for-mathematicians/</link><pubDate>Wed, 27 Nov 2024 01:33:27 -0600</pubDate><guid>/tutorials/tutorial-for-mathematicians/</guid><description/></item><item><title>Core references</title><link>/docs/reference/core-references/</link><pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate><guid>/docs/reference/core-references/</guid><description>&lt;h5 id="landauers-blowtorch-theoremhttpsjournalsapsorgpraabstract101103physreva12636">&lt;a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.12.636">Landauer&amp;rsquo;s blowtorch theorem&lt;/a>&lt;/h5>
-&lt;p>Landauer, Rolf. &amp;ldquo;Inadequacy of entropy and entropy derivatives in characterizing the steady state.&amp;rdquo; &lt;em>Physical Review A&lt;/em> 12.2 (1975): 636.&lt;/p></description></item><item><title>Introduction</title><link>/docs/guides/markov-chain-theory/introduction/</link><pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate><guid>/docs/guides/markov-chain-theory/introduction/</guid><description>&lt;p>This guide explores the Markov chain theory of rattling developed in &lt;a href="/references/calvertrandall/">Calvert–Randall (2024)&lt;/a>. It assumes only basic knowledge of finite Markov chains, like the jump-hold description of continuous-time Markov chains and the major theorems about the existence and uniqueness of stationary distributions.&lt;/p></description></item><item><title>Rattling</title><link>/docs/background/rattling/</link><pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate><guid>/docs/background/rattling/</guid><description>&lt;p>Guides lead a user through a specific task they want to accomplish, often with a sequence of steps. Writing a good guide requires thinking about what your users are trying to do.&lt;/p></description></item><item><title>Vicsek model via Rattling</title><link>/docs/background/vicsek-model-via-rattling/</link><pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate><guid>/docs/background/vicsek-model-via-rattling/</guid><description/></item><item><title>For life scientists</title><link>/tutorials/tutorial-for-life-scientists/</link><pubDate>Wed, 27 Nov 2024 01:33:27 -0600</pubDate><guid>/tutorials/tutorial-for-life-scientists/</guid><description/></item><item><title>For engineers</title><link>/tutorials/tutorial-for-engineers/</link><pubDate>Wed, 27 Nov 2024 01:33:27 -0600</pubDate><guid>/tutorials/tutorial-for-engineers/</guid><description/></item><item><title>Announcement</title><link>/blog/announcement/</link><pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate><guid>/blog/announcement/</guid><description>&lt;p>Pavel and I have decided to make a website dedicated to the theory of rattling and its &lt;a href="/core-questions/">core open questions&lt;/a>. We&amp;rsquo;ll be adding information to the &lt;a href="/docs/background/rattling/">docs&lt;/a> over the coming weeks and months.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome on Rattling</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Welcome on Rattling</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2020–2024 rattling.org</copyright>
+    <lastBuildDate>Wed, 27 Nov 2024 01:33:27 -0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>For physicists</title>
+      <link>http://localhost:1313/tutorials/tutorial-for-physicists/</link>
+      <pubDate>Wed, 27 Nov 2024 01:33:27 -0600</pubDate>
+      <guid>http://localhost:1313/tutorials/tutorial-for-physicists/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Self-organization</title>
+      <link>http://localhost:1313/docs/background/self-organization/</link>
+      <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
+      <guid>http://localhost:1313/docs/background/self-organization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>For mathematicians</title>
+      <link>http://localhost:1313/tutorials/tutorial-for-mathematicians/</link>
+      <pubDate>Wed, 27 Nov 2024 01:33:27 -0600</pubDate>
+      <guid>http://localhost:1313/tutorials/tutorial-for-mathematicians/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Core references</title>
+      <link>http://localhost:1313/docs/reference/core-references/</link>
+      <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
+      <guid>http://localhost:1313/docs/reference/core-references/</guid>
+      <description>&lt;h5 id=&#34;landauers-blowtorch-theoremhttpsjournalsapsorgpraabstract101103physreva12636&#34;&gt;&lt;a href=&#34;https://journals.aps.org/pra/abstract/10.1103/PhysRevA.12.636&#34;&gt;Landauer&amp;rsquo;s blowtorch theorem&lt;/a&gt;&lt;/h5&gt;&#xA;&lt;p&gt;Landauer, Rolf. &amp;ldquo;Inadequacy of entropy and entropy derivatives in characterizing the steady state.&amp;rdquo; &lt;em&gt;Physical Review A&lt;/em&gt; 12.2 (1975): 636.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Introduction</title>
+      <link>http://localhost:1313/docs/guides/markov-chain-theory/introduction/</link>
+      <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
+      <guid>http://localhost:1313/docs/guides/markov-chain-theory/introduction/</guid>
+      <description>&lt;p&gt;This guide explores the Markov chain theory of rattling developed in &lt;a href=&#34;http://localhost:1313/references/calvertrandall/&#34;&gt;Calvert–Randall (2024)&lt;/a&gt;. It assumes only basic knowledge of finite Markov chains, like the jump-hold description of continuous-time Markov chains and the major theorems about the existence and uniqueness of stationary distributions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rattling</title>
+      <link>http://localhost:1313/docs/background/rattling/</link>
+      <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
+      <guid>http://localhost:1313/docs/background/rattling/</guid>
+      <description>&lt;p&gt;Guides lead a user through a specific task they want to accomplish, often with a sequence of steps. Writing a good guide requires thinking about what your users are trying to do.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vicsek model via Rattling</title>
+      <link>http://localhost:1313/docs/background/vicsek-model-via-rattling/</link>
+      <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
+      <guid>http://localhost:1313/docs/background/vicsek-model-via-rattling/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>For life scientists</title>
+      <link>http://localhost:1313/tutorials/tutorial-for-life-scientists/</link>
+      <pubDate>Wed, 27 Nov 2024 01:33:27 -0600</pubDate>
+      <guid>http://localhost:1313/tutorials/tutorial-for-life-scientists/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>For engineers</title>
+      <link>http://localhost:1313/tutorials/tutorial-for-engineers/</link>
+      <pubDate>Wed, 27 Nov 2024 01:33:27 -0600</pubDate>
+      <guid>http://localhost:1313/tutorials/tutorial-for-engineers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Announcement</title>
+      <link>http://localhost:1313/blog/announcement/</link>
+      <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/announcement/</guid>
+      <description>&lt;p&gt;Pavel and I have decided to make a website dedicated to the theory of rattling and its &lt;a href=&#34;http://localhost:1313/core-questions/&#34;&gt;core open questions&lt;/a&gt;. We&amp;rsquo;ll be adding information to the &lt;a href=&#34;http://localhost:1313/docs/background/rattling/&#34;&gt;docs&lt;/a&gt; over the coming weeks and months.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

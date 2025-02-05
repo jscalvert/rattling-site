@@ -1,2 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Reference on Rattling</title><link>/docs/reference/</link><description>Recent content in Reference on Rattling</description><generator>Hugo</generator><language>en</language><copyright>Copyright (c) 2020–2024 rattling.org</copyright><lastBuildDate>Thu, 07 Sep 2023 16:13:18 +0200</lastBuildDate><atom:link href="/docs/reference/index.xml" rel="self" type="application/rss+xml"/><item><title>Core references</title><link>/docs/reference/core-references/</link><pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate><guid>/docs/reference/core-references/</guid><description>&lt;h5 id="landauers-blowtorch-theoremhttpsjournalsapsorgpraabstract101103physreva12636">&lt;a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.12.636">Landauer&amp;rsquo;s blowtorch theorem&lt;/a>&lt;/h5>
-&lt;p>Landauer, Rolf. &amp;ldquo;Inadequacy of entropy and entropy derivatives in characterizing the steady state.&amp;rdquo; &lt;em>Physical Review A&lt;/em> 12.2 (1975): 636.&lt;/p></description></item><item><title>Calvert–Randall paper</title><link>/docs/reference/calvertrandall-paper/</link><pubDate>Thu, 07 Sep 2023 16:13:18 +0200</pubDate><guid>/docs/reference/calvertrandall-paper/</guid><description>&lt;p>This page describes the Calvert–Randall paper and its contribution.&lt;/p></description></item><item><title>Chvykov et al. paper</title><link>/docs/reference/chvykov-et-al.-paper/</link><pubDate>Thu, 07 Sep 2023 16:13:18 +0200</pubDate><guid>/docs/reference/chvykov-et-al.-paper/</guid><description>&lt;p>This page describes the Chvykov et al. paper and its contribution.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reference on Rattling</title>
+    <link>http://localhost:1313/docs/reference/</link>
+    <description>Recent content in Reference on Rattling</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2020–2024 rattling.org</copyright>
+    <lastBuildDate>Thu, 07 Sep 2023 16:13:18 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/docs/reference/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Core references</title>
+      <link>http://localhost:1313/docs/reference/core-references/</link>
+      <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
+      <guid>http://localhost:1313/docs/reference/core-references/</guid>
+      <description>&lt;h5 id=&#34;landauers-blowtorch-theoremhttpsjournalsapsorgpraabstract101103physreva12636&#34;&gt;&lt;a href=&#34;https://journals.aps.org/pra/abstract/10.1103/PhysRevA.12.636&#34;&gt;Landauer&amp;rsquo;s blowtorch theorem&lt;/a&gt;&lt;/h5&gt;&#xA;&lt;p&gt;Landauer, Rolf. &amp;ldquo;Inadequacy of entropy and entropy derivatives in characterizing the steady state.&amp;rdquo; &lt;em&gt;Physical Review A&lt;/em&gt; 12.2 (1975): 636.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Calvert–Randall paper</title>
+      <link>http://localhost:1313/docs/reference/calvertrandall-paper/</link>
+      <pubDate>Thu, 07 Sep 2023 16:13:18 +0200</pubDate>
+      <guid>http://localhost:1313/docs/reference/calvertrandall-paper/</guid>
+      <description>&lt;p&gt;This page describes the Calvert–Randall paper and its contribution.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chvykov et al. paper</title>
+      <link>http://localhost:1313/docs/reference/chvykov-et-al.-paper/</link>
+      <pubDate>Thu, 07 Sep 2023 16:13:18 +0200</pubDate>
+      <guid>http://localhost:1313/docs/reference/chvykov-et-al.-paper/</guid>
+      <description>&lt;p&gt;This page describes the Chvykov et al. paper and its contribution.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

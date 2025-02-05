@@ -1,1 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Markov chains &amp; rattling on Rattling</title><link>/docs/guides/markov-chain-theory/</link><description>Recent content in Markov chains &amp; rattling on Rattling</description><generator>Hugo</generator><language>en</language><copyright>Copyright (c) 2020–2024 rattling.org</copyright><lastBuildDate>Thu, 07 Sep 2023 16:04:48 +0200</lastBuildDate><atom:link href="/docs/guides/markov-chain-theory/index.xml" rel="self" type="application/rss+xml"/><item><title>Introduction</title><link>/docs/guides/markov-chain-theory/introduction/</link><pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate><guid>/docs/guides/markov-chain-theory/introduction/</guid><description>&lt;p>This guide explores the Markov chain theory of rattling developed in &lt;a href="/references/calvertrandall/">Calvert–Randall (2024)&lt;/a>. It assumes only basic knowledge of finite Markov chains, like the jump-hold description of continuous-time Markov chains and the major theorems about the existence and uniqueness of stationary distributions.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markov chains &amp; rattling on Rattling</title>
+    <link>http://localhost:1313/docs/guides/markov-chain-theory/</link>
+    <description>Recent content in Markov chains &amp; rattling on Rattling</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2020–2024 rattling.org</copyright>
+    <lastBuildDate>Thu, 07 Sep 2023 16:04:48 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/docs/guides/markov-chain-theory/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction</title>
+      <link>http://localhost:1313/docs/guides/markov-chain-theory/introduction/</link>
+      <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
+      <guid>http://localhost:1313/docs/guides/markov-chain-theory/introduction/</guid>
+      <description>&lt;p&gt;This guide explores the Markov chain theory of rattling developed in &lt;a href=&#34;http://localhost:1313/references/calvertrandall/&#34;&gt;Calvert–Randall (2024)&lt;/a&gt;. It assumes only basic knowledge of finite Markov chains, like the jump-hold description of continuous-time Markov chains and the major theorems about the existence and uniqueness of stationary distributions.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
