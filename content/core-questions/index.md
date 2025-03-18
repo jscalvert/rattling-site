@@ -26,11 +26,13 @@ More precisely, how common are systems for which the rattling of a state is high
 
 ## Rattling for transients
 
-Rattling relates a local property of a state to its weight in the global steady-state distribution. The Markov chain theory of rattling shows that this local property suffices to predict the global weight of a state when the local part varies enough over the states of the system. This view of rattling may hold even when the global steady-state distribution is replaced by a finite-time distribution.
+Rattling relates a local property of a state to its weight in the global steady-state distribution. The Markov chain theory of rattling shows that this local property suffices to predict the global weight of a state when the local part varies enough over the states of the system. Does this view of rattling hold even when the global steady-state distribution is replaced by a finite-time distribution?
 
 
 
 ## Rattling workflow
+
+What is a principled and practical way to estimate rattling from data?
 
 
 
@@ -42,6 +44,8 @@ Rattling is a property of a state of a system. For systems that are groups of in
 
 ## Rattling under transformations
 
+The extent to which rattling predicts a system's steady-state distribution depends on how the states are defined. If you transform the state space, say, by coarse-graining, how does rattling change?
+
 
 
 ## Predicting rattling
@@ -50,6 +54,6 @@ Rattling is a property of a state of a system. For systems that are groups of in
 
 ## *A priori* test of rattling
 
-
+Is it possible to detect the failure of rattling to predict a system's steady-state distribution from simple measurements of the system?
 
 ## Connections of rattling
