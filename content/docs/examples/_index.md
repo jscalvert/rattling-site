@@ -1,11 +1,11 @@
 ---
-title: "Tutorials"
+title: "Examples"
 description: ""
 summary: ""
-date: 2024-11-30T16:36:04-06:00
-lastmod: 2024-11-30T16:36:04-06:00
+date: 2024-11-30T16:35:40-06:00
+lastmod: 2024-11-30T16:35:40-06:00
 draft: false
-weight: 999
+weight: 10
 toc: true
 seo:
   title: "" # custom title (optional)

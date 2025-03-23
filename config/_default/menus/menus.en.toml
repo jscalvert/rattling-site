@@ -16,41 +16,31 @@
 #   identifier = "lorem"
 #   url = "/docs/lorem/"
 
-[[guide]]
-  name = "Lorem"
+# [[guide]]
+#  name = "Lorem"
+#  weight = 10
+#  identifier = "lorem"
+#  url = "/guide/lorem/"
+
+ [[main]]
+  name = "Background"
+  url = "/docs/background/order/"
   weight = 10
-  identifier = "lorem"
-  url = "/guide/lorem/"
 
 [[main]]
-  name = "About"
-  url = "/about/"
-  weight = 10
-
-[[main]]
-  name = "Learn"
-  url = "/learn/"
-  weight = 20
-
-[[main]]
-  name = "Core"
+  name = "Core Questions"
   url = "/core-questions/"
-  weight = 30
-
-  [[main]]
-  name = "Docs"
-  url = "/docs/background/rattling/"
-  weight = 40
-
-[[main]]
-  name = "Blog"
-  url = "/blog/"
-  weight = 50
+  weight = 20
 
 [[main]]
   name = "Media"
   url = "/media/"
-  weight = 60
+  weight = 30
+
+[[main]]
+  name = "About"
+  url = "/about/"
+  weight = 40
 
 
 # [[social]]

@@ -1,10 +1,11 @@
 ---
-title: Landauer's Blowtorch Theorem
+title: Landauer's blowtorch
 description: ""
 summary: ""
 date: 2024-12-04T18:53:05-06:00
 lastmod: 2024-12-04T18:53:05-06:00
 draft: false
+weight: 15
 seo:
   title: ""
   description: ""
