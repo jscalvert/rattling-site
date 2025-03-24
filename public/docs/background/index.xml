@@ -1,69 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Background on Rattling</title>
-    <link>http://localhost:1313/docs/background/</link>
-    <description>Recent content in Background on Rattling</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <copyright>Copyright (c) 2020–2024 rattling.org</copyright>
-    <lastBuildDate>Wed, 04 Dec 2024 18:59:06 -0600</lastBuildDate>
-    <atom:link href="http://localhost:1313/docs/background/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>What&#39;s rattling?</title>
-      <link>http://localhost:1313/docs/background/whats-rattling/</link>
-      <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>http://localhost:1313/docs/background/whats-rattling/</guid>
-      <description>&lt;p&gt;Rattling is:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;a property of a system state&lt;/li&gt;&#xA;&lt;li&gt;related to how quickly a system &amp;ldquo;leaves&amp;rdquo; a state&lt;/li&gt;&#xA;&lt;li&gt;easy to measure&lt;/li&gt;&#xA;&lt;li&gt;predictive of how likely you are to observe the system in each state&lt;/li&gt;&#xA;&lt;li&gt;like energy, but for nonequilibrium systems&lt;/li&gt;&#xA;&lt;li&gt;a way to explain &lt;a href=&#34;http://localhost:1313/docs/background/explaining-order&#34;&gt;order&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Explaining order</title>
-      <link>http://localhost:1313/docs/background/explaining-order/</link>
-      <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>http://localhost:1313/docs/background/explaining-order/</guid>
-      <description>&lt;p&gt;Systems across physical scales and scientific domains exhibit order. Proteins fold, cells become tissues, and army ants form nests of their living bodies.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; To us, a system exhibits order when it spends a disproportionate fraction of time in relatively few of the &amp;ldquo;states&amp;rdquo; available to it.&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; In many instances, this kind of temporal order goes hand in hand with spatial order, like a crystalline solid. Explaining how order arises is a fundamental scientific challenge.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Landauer&#39;s blowtorch</title>
-      <link>http://localhost:1313/docs/background/landauers-blowtorch/</link>
-      <pubDate>Wed, 04 Dec 2024 18:53:05 -0600</pubDate>
-      <guid>http://localhost:1313/docs/background/landauers-blowtorch/</guid>
-      <description>&lt;p&gt;This classic no-go theorem from 1975 [&lt;a href=&#34;https://rattling.org/docs/reference/literature/#landauers-blowtorch-theorem&#34;&gt;Landauer75&lt;/a&gt;] was a response to the persistent hope in statistical physics to formulate a general &amp;ldquo;nonequilibrium Boltzmann distribution&amp;rdquo; – i.e., to express the nonequilibrium steady-state probability of any given state in terms of only &lt;em&gt;local&lt;/em&gt; observables at that state. Landauer showed that this is in general impossible by providing a counter-example, illustrated in this picture:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Nonequilibrium Boltzmann Distribution</title>
-      <link>http://localhost:1313/docs/background/nonequilibrium-boltzmann-distribution/</link>
-      <pubDate>Wed, 04 Dec 2024 18:59:06 -0600</pubDate>
-      <guid>http://localhost:1313/docs/background/nonequilibrium-boltzmann-distribution/</guid>
-      <description>$$p_{eq}(x) = e^{-\beta\; U(x)}/Z$$$$p_{ss}(x) \approx e^{-\gamma\; \mathcal{R}(x)}/Z \tag{1}$$&lt;p&gt;&#xA;This is a very powerful claim that has been sought by the nonequilibrium stat mech research community for decades, and so it comes at a price: the &amp;ldquo;$\approx$&amp;rdquo; in this expression is a poorly-controlled approximation. It generally works for &amp;ldquo;&lt;a href=&#34;https://rattling.org/docs/background/typicality/&#34;&gt;typical&lt;/a&gt;&amp;rdquo; systems, but that notion so far lacks a formal definition. Some of the core questions in our research are thus understanding the assumptions and the practical generality of this approximation. #formal #general&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Calculating Rattling</title>
-      <link>http://localhost:1313/docs/background/calculating-rattling/</link>
-      <pubDate>Wed, 04 Dec 2024 18:53:05 -0600</pubDate>
-      <guid>http://localhost:1313/docs/background/calculating-rattling/</guid>
-      <description>&lt;p&gt;[For broader context, see &lt;a href=&#34;https://rattling.org/docs/background/rattling-thermo/&#34;&gt;Rattling Thermodynamics&lt;/a&gt;]&#xA;One limitation of the Rattling framework $p_{ss}(x) \approx e^{-\gamma\; \mathcal{R}(x)}/Z \tag{1}$  is that for arbitrary far-from-equilibrium nonlinear dynamical systems, it is difficult to analytically estimate Rattling of any given state $\mathcal{R}(x)$. So we often need to explicitly measure $\mathcal{R}(x)$. This still allows us to predict global steady-state in terms of only local measurements of Rattling, and so is already practically useful, but the cases where we can predict $\mathcal{R}(x)$ analytically allow for much more prediction and control.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Random Energy Model (REM)</title>
-      <link>http://localhost:1313/docs/background/random-energy-model-rem/</link>
-      <pubDate>Wed, 04 Dec 2024 18:53:05 -0600</pubDate>
-      <guid>http://localhost:1313/docs/background/random-energy-model-rem/</guid>
-      <description>&lt;p&gt;One of the simplest, and also most general, models of equilibrium phase transition is the &lt;a href=&#34;https://en.wikipedia.org/wiki/Random_energy_model&#34;&gt;REM&lt;/a&gt;. Here, we consider the case where the energies of the accessible system states are normally distributed $\{U(x)\} \sim \mathcal{N}(0, \sigma)$. This is motivated by the central limit theorem, and applies in cases where the state energy is a sum of many interaction energies that are so messy as to be essentially random – as may be the case for a spin-glass or a folded protein. This model is a prime example of using the assumption of &lt;a href=&#34;https://rattling.org/docs/background/typicality&#34;&gt;typicality&lt;/a&gt; .&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Rattling Thermodynamics</title>
-      <link>http://localhost:1313/docs/background/rattling-thermodynamics/</link>
-      <pubDate>Wed, 04 Dec 2024 18:53:05 -0600</pubDate>
-      <guid>http://localhost:1313/docs/background/rattling-thermodynamics/</guid>
-      <description>&lt;p&gt;Rattling gives us a &amp;ldquo;&lt;a href=&#34;https://rattling.org/docs/background/neq-boltzmann/&#34;&gt;Nonequilibrium Boltzmann Distribution&lt;/a&gt;&amp;rdquo; (a statement that must be carefully qualified and still needs further development and clarification, see link). This is something that has been sought by the nonequilibrium stat mech community for decades, and so if we suppose that we have this, it opens many possibilities. One natural next step is to try to translate the plethora of phenomena and results known from equilibrium thermodynamics to nonequilibrium systems, and verify them on experimental and numerical examples.&#xA;Let&amp;rsquo;s now go through a few research directions in more detail:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Typicality</title>
-      <link>http://localhost:1313/docs/background/typicality/</link>
-      <pubDate>Wed, 04 Dec 2024 18:53:05 -0600</pubDate>
-      <guid>http://localhost:1313/docs/background/typicality/</guid>
-      <description>&lt;p&gt;No adversarial fine-tuning&#xA;other literature around typicality&amp;hellip; (e.g., random matrix theory, Wigner nuclei)&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Background on Rattling</title><link>/docs/background/</link><description>Recent content in Background on Rattling</description><generator>Hugo</generator><language>en</language><copyright>Copyright (c) 2020–2024 rattling.org</copyright><lastBuildDate>Wed, 04 Dec 2024 18:59:06 -0600</lastBuildDate><atom:link href="/docs/background/index.xml" rel="self" type="application/rss+xml"/><item><title>What's rattling?</title><link>/docs/background/whats-rattling/</link><pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate><guid>/docs/background/whats-rattling/</guid><description>&lt;p>Rattling is:&lt;/p>
+&lt;ul>
+&lt;li>a property of a system state&lt;/li>
+&lt;li>related to how quickly a system &amp;ldquo;leaves&amp;rdquo; a state&lt;/li>
+&lt;li>easy to measure&lt;/li>
+&lt;li>predictive of how likely you are to observe the system in each state&lt;/li>
+&lt;li>like energy, but for nonequilibrium systems&lt;/li>
+&lt;li>a way to explain &lt;a href="/docs/background/explaining-order">order&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Explaining order</title><link>/docs/background/explaining-order/</link><pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate><guid>/docs/background/explaining-order/</guid><description>&lt;p>Systems across physical scales and scientific domains exhibit order. Proteins fold, cells become tissues, and army ants form nests of their living bodies.&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> To us, a system exhibits order when it spends a disproportionate fraction of time in relatively few of the &amp;ldquo;states&amp;rdquo; available to it.&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup> In many instances, this kind of temporal order goes hand in hand with spatial order, like a crystalline solid. Explaining how order arises is a fundamental scientific challenge.&lt;/p></description></item><item><title>Landauer's blowtorch</title><link>/docs/background/landauers-blowtorch/</link><pubDate>Wed, 04 Dec 2024 18:53:05 -0600</pubDate><guid>/docs/background/landauers-blowtorch/</guid><description>&lt;p>At this stage, we will split our discussion into sections intended for different readers. For those seeking a physical discussion, read on. For those seeking a mathematical analogue, skip to &lt;a href="#a-mathematicians-perspective">this section&lt;/a>.&lt;/p></description></item><item><title>Nonequilibrium Boltzmann Distribution</title><link>/docs/background/nonequilibrium-boltzmann-distribution/</link><pubDate>Wed, 04 Dec 2024 18:59:06 -0600</pubDate><guid>/docs/background/nonequilibrium-boltzmann-distribution/</guid><description>$$p_{eq}(x) = e^{-\beta\; U(x)}/Z$$$$p_{ss}(x) \approx e^{-\gamma\; \mathcal{R}(x)}/Z \tag{1}$$&lt;p>
+This is a very powerful claim that has been sought by the nonequilibrium stat mech research community for decades, and so it comes at a price: the &amp;ldquo;$\approx$&amp;rdquo; in this expression is a poorly-controlled approximation. It generally works for &amp;ldquo;&lt;a href="https://rattling.org/docs/background/typicality/">typical&lt;/a>&amp;rdquo; systems, but that notion so far lacks a formal definition. Some of the core questions in our research are thus understanding the assumptions and the practical generality of this approximation. #formal #general&lt;/p></description></item><item><title>Calculating Rattling</title><link>/docs/background/calculating-rattling/</link><pubDate>Wed, 04 Dec 2024 18:53:05 -0600</pubDate><guid>/docs/background/calculating-rattling/</guid><description>&lt;p>[For broader context, see &lt;a href="https://rattling.org/docs/background/rattling-thermo/">Rattling Thermodynamics&lt;/a>]
+One limitation of the Rattling framework $p_{ss}(x) \approx e^{-\gamma\; \mathcal{R}(x)}/Z \tag{1}$ is that for arbitrary far-from-equilibrium nonlinear dynamical systems, it is difficult to analytically estimate Rattling of any given state $\mathcal{R}(x)$. So we often need to explicitly measure $\mathcal{R}(x)$. This still allows us to predict global steady-state in terms of only local measurements of Rattling, and so is already practically useful, but the cases where we can predict $\mathcal{R}(x)$ analytically allow for much more prediction and control.&lt;/p></description></item><item><title>Random Energy Model (REM)</title><link>/docs/background/random-energy-model-rem/</link><pubDate>Wed, 04 Dec 2024 18:53:05 -0600</pubDate><guid>/docs/background/random-energy-model-rem/</guid><description>&lt;p>One of the simplest, and also most general, models of equilibrium phase transition is the &lt;a href="https://en.wikipedia.org/wiki/Random_energy_model">REM&lt;/a>. Here, we consider the case where the energies of the accessible system states are normally distributed $\{U(x)\} \sim \mathcal{N}(0, \sigma)$. This is motivated by the central limit theorem, and applies in cases where the state energy is a sum of many interaction energies that are so messy as to be essentially random – as may be the case for a spin-glass or a folded protein. This model is a prime example of using the assumption of &lt;a href="https://rattling.org/docs/background/typicality">typicality&lt;/a> .&lt;/p></description></item><item><title>Rattling Thermodynamics</title><link>/docs/background/rattling-thermodynamics/</link><pubDate>Wed, 04 Dec 2024 18:53:05 -0600</pubDate><guid>/docs/background/rattling-thermodynamics/</guid><description>&lt;p>Rattling gives us a &amp;ldquo;&lt;a href="https://rattling.org/docs/background/neq-boltzmann/">Nonequilibrium Boltzmann Distribution&lt;/a>&amp;rdquo; (a statement that must be carefully qualified and still needs further development and clarification, see link). This is something that has been sought by the nonequilibrium stat mech community for decades, and so if we suppose that we have this, it opens many possibilities. One natural next step is to try to translate the plethora of phenomena and results known from equilibrium thermodynamics to nonequilibrium systems, and verify them on experimental and numerical examples.
+Let&amp;rsquo;s now go through a few research directions in more detail:&lt;/p></description></item><item><title>Typicality</title><link>/docs/background/typicality/</link><pubDate>Wed, 04 Dec 2024 18:53:05 -0600</pubDate><guid>/docs/background/typicality/</guid><description>&lt;p>No adversarial fine-tuning
+other literature around typicality&amp;hellip; (e.g., random matrix theory, Wigner nuclei)&lt;/p></description></item></channel></rss>

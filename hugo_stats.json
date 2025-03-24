@@ -249,6 +249,8 @@
     "ids": [
       "MathJax-script",
       "TableOfContents",
+      "a-mathematicians-perspective",
+      "a-physicists-perspective",
       "a-priori-test-of-rattling",
       "analytic-continuation-of-rattling-landscape",
       "buttonColorMode",
@@ -265,6 +267,7 @@
       "fnref:1",
       "fnref:2",
       "h-rh-i-0",
+      "h-rh-i-1",
       "how-rattling-circumvents-this",
       "independent-systems",
       "its-authors",
