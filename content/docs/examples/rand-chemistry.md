@@ -13,4 +13,5 @@ seo:
   canonical: ""
   robots: ""
 author: Pavel Chvykov
+math: true
 ---

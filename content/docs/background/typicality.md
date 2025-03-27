@@ -15,3 +15,4 @@ author: Pavel Chvykov
 ---
 No adversarial fine-tuning
 other literature around typicality... (e.g., random matrix theory, Wigner nuclei)
+in the space of all real-world systems, what's the measure of low-R systems
