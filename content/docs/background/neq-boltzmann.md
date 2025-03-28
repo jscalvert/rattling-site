@@ -15,7 +15,7 @@ author: Pavel Chvykov
 math: true
 ---
 
-As the previous entry explained, there can be no analogue of the Boltzmann distribution that applies to all nonequilibrium systems. Consequently, there can be no analogous explanation of order in nonequilibrium systems. Progress therefore requires weakening the relation that the Boltzmann distribution constitutes, or narrowing the class of systems that must satisfy it. Rattling theory does both. We explain this point from two perspectives. The first is physical; the [second](#a-mathematicians-perspective) is more mathematical.
+There can be no analogue of the Boltzmann distribution that applies to all nonequilibrium systems. Consequently, there can be no analogous explanation of order in nonequilibrium systems. Progress therefore requires weakening the relation that the Boltzmann distribution constitutes, or narrowing the class of systems that must satisfy it. Rattling theory does both. We explain this point from two perspectives. The first is physical; the [second](#a-mathematicians-perspective) is more mathematical.
 
 ### A physicist's perspective
 

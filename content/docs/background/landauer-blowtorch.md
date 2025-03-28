@@ -15,7 +15,7 @@ author: Pavel Chvykov
 math: true
 ---
 
-As the previous entry mentioned, there can be no analogue of the Boltzmann distribution that applies to all nonequilibrium systems. The purpose of this entry is to explain why. At this stage, we will split our discussion into sections intended for different readers. For those seeking a physical discussion, read on. For those seeking a mathematical analogue, skip to [this section](#a-mathematicians-perspective).
+There can be no analogue of the Boltzmann distribution that applies to all nonequilibrium systems. The purpose of this entry is to explain why. At this stage, we will split our discussion into sections intended for different readers. For those seeking a physical discussion, read on. For those seeking a mathematical analogue, skip to [this section](#a-mathematicians-perspective).
 
 ### A physicist's perspective
 
