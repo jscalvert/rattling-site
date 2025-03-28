@@ -21,7 +21,7 @@ Systems across physical scales and scientific domains exhibit order. Proteins fo
 
 For systems in thermal equilibrium, there is a powerful explanation of order. A property of each state, called energy, determines the long-run fraction of time that the system spends in it. States with lower energy are favored to an extent determined by temperature, which is quantified by the Boltzmann distribution, the cornerstone of statistical mechanics:
 
-$$ P(x) \propto \frac{1}{Z} e^{-E(x)/T}. $$
+$$ P(x) = \frac{1}{Z} e^{-E(x)/T}. $$
 
 In this expression, $P(x)$ denotes the long-run fraction of time that the system spends in state $x$, which can be thought of as the probability that you would observe the system in $x$. The energy of $x$ is denoted by $E(x)$, $T$ is the temperature, and $Z$ is the quantity that ensures $P$ sums to one.
 
