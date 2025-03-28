@@ -29,12 +29,12 @@
 
 [[main]]
   name = "Examples"
-  url = "/docs/examples/rem/"
+  url = "/docs/examples/random-energy-model/"
   weight = 15
 
 [[main]]
   name = "Research Directions"
-  url = "/docs/research-directions/rattling-thermo/"
+  url = "/docs/research-directions/rattling-thermodynamics/"
   weight = 17
 
 [[main]]
