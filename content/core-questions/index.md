@@ -13,36 +13,48 @@ seo:
 ---
 ## Typicality of rattling
 
-How common are systems for which the rattling $\mathcal{R}(x)$ of a state is predictive of its probability $p_{ss}(x)$ in the global steady-state distribution? 
-While we have many [examples](https://rattling.org/docs/examples/) of classes of systems for which rattling holds in this sense, we still need a better evaluation of how common rattling is among real-world systems (see here[LINK Jacob's result] for our best understanding of this so far).
+*Rattling $\mathcal{R}(x)$ is a local property of a state $x$ – how common are systems for which it is strongly correlated with its probability $p_{ss}(x)$ in the global steady-state distribution?*
+While we have many [examples](https://rattling.org/docs/examples/) of classes of systems for which rattling holds in this sense, we still need a better evaluation of how common rattling is among real-world systems.
+(see here[LINK Jacob's result] for our best understanding of this so far)
 
 ## Strength of rattling fine-tuning
 
-In systems where rattling holds, can it produce a strongly concentrated $p_{ss}(x)$ distribution? 
-To explain the remarkable degree of organization and order found in nature, the fine-tuning due to Rattling needs to be very strong, requiring $\mathcal{R}(x)$ to vary over several orders of magnitude. Is this possible and likely to happen in natural systems? (see [examples](https://rattling.org/docs/examples/), and specifically the discussion in [REM](https://rattling.org/docs/examples/random-energy-model/))
+*In systems where rattling holds, can it produce a strongly concentrated $p_{ss}(x)$ distribution?*
+To explain the remarkable degree of organization and order found in nature, the fine-tuning due to Rattling needs to be very strong, requiring $\mathcal{R}(x)$ to vary over several orders of magnitude. Is this possible and likely to happen in natural systems? 
+(see [examples](https://rattling.org/docs/examples/), and specifically the discussion in [REM](https://rattling.org/docs/examples/random-energy-model/))
 
-## Drive information encoding
+## Environmental information encoding
 
-
+*When can we say that the dynamical system is "learning" from its environment?*
+"Order" in nature does not just mean selection of rare configurations – these configurations must also be recognizably "special." To talk about adaptation, this "specialness" must be in the way the configurations reflect the information in their external driving forces or environment. 
+(see this discussion[LINK learning from the drive] for some evidence and ideas on how to approach this)
 
 ## Rattling for transients
 
+*Rattling is typically predictive of steady-state probabilities. Can it tell us anything about the transient dynamics?*
+For questions of adaptation and origins of life, the key concern isn't whether life can be stable, but whether it can emerge on a reasonably fast time-scale. So we must ask not only about the steady-state, but also about relaxation times and dynamics. 
+
+[I like yours, but can you tie it in with the above, and also make it a bit less technical? Also I think can drop first 2 sentences as they are repeats]
 Rattling relates a local property of a state to its weight in the global steady-state distribution. The Markov chain theory of rattling shows that this local property suffices to predict the global weight of a state when the local part varies enough over the states of the system. Does this view of rattling hold even when the global steady-state distribution is replaced by a finite-time distribution?
 
-
+(this is a wide open question, see this discussion[LINK transient] for what we know so far)
 
 ## Rattling workflow
 
-What is a principled and practical way to estimate rattling from data?
+*What is a principled and practical way to calculate Rattling or estimate it from data?*
+What can Rattling do for you in your specific experiment or question, and how to work with it?
+(see here[LINK] for details on experimental uses, and here[LINK] for discussion on calculating / predicting it)
 
 
 ___
-# Other key questions
+# More specific questions:
 
-## Rattling "one level down"
+## Rattling under composition 
+instead of Rattling "one level down"?
+[FIX/CLARIFY??] I feel like this be a sub-question of the "under transformations" question?
 
-Rattling is a property of a state of a system. For systems that are groups of interacting elements, a state might consist of the positions of all the elements in the group. How can we relate rattling, a property of the state, to the dynamics of the elements the state comprises? In other words, how can we go "one level down?"
-
+Rattling is a property of a state of a system. For systems that are groups of interacting elements, a state might consist of the positions of all the elements in the group. How can we relate rattling, a property of the state, to the dynamics of the elements the state comprises? In other words, how can we go "one level down?" Or, equivalently, what is Rattling under coarse-graining? Perhaps even could there be some "Renormalization Group" flow for it?
+(see here[Link pred-rattlinng] for discussion, and the [anharmonic net] example)
 
 
 ## Rattling under transformations
@@ -50,13 +62,11 @@ Rattling is a property of a state of a system. For systems that are groups of in
 The extent to which rattling predicts a system's steady-state distribution depends on how the states are defined. If you transform the state space, say, by coarse-graining, how does rattling change?
 
 
-
-## Predicting rattling
-
-
-
 ## *A priori* test of rattling
 
-Is it possible to detect the failure of rattling to predict a system's steady-state distribution from simple measurements of the system?
+*How do we know for a given system if we should use Rattling or not?*
+Is it possible to use some simple measurements of the system to *a priori* know the success or failure of rattling to predict a system's steady-state distribution?
 
-## Connections of rattling
+## Connections to other frameworks
+
+*How does the Rattling framework relate to other frameworks on non-equilibrium steady-states and self-organization?*

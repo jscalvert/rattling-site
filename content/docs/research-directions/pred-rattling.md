@@ -1,5 +1,5 @@
 ---
-title: Calculating Rattling
+title: Predicting Rattling
 description: ""
 summary: ""
 date: 2024-12-04T18:53:05-06:00
