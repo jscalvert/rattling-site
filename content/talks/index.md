@@ -1,5 +1,5 @@
 ---
-title: "Media"
+title: "Talks"
 description: "Rattling theory content for watching and listening"
 summary: ""
 date: 2024-11-27T02:01:26-06:00
