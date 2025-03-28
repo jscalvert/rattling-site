@@ -28,6 +28,16 @@
   weight = 10
 
 [[main]]
+  name = "Examples"
+  url = "/docs/examples/rem/"
+  weight = 15
+
+[[main]]
+  name = "Research Directions"
+  url = "/docs/research-directions/rattling-thermo/"
+  weight = 17
+
+[[main]]
   name = "Core Questions"
   url = "/core-questions/"
   weight = 20
