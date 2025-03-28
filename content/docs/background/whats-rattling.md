@@ -13,12 +13,14 @@ seo:
   canonical: "" # custom canonical URL (optional)
   robots: "" # custom robot tags (optional)
 ---
+A theoretical framework aimed at explaining order in nature, and specifically self-organization and adaptation in non-living dynamical systems. It is inspired by the quest to understand the general drivers of the origins of life: why non-living matter might spontaneously turn into living matter. It's a new and active area of research, with some of the [core questions](https://rattling.org/core-questions/) having been resolved, and others very much open – [join our effort](https://rattling.org/contact/)!
 
-Rattling is: 
+Rattling $\mathcal{R}(x)$ is: 
 
-- a property of a system state
-- related to how quickly a system "leaves" a state
-- easy to measure
-- predictive of how likely you are to observe the system in each state
-- like energy, but for nonequilibrium systems
-- a way to explain [order](/docs/background/explaining-order)
+- a property of a dynamical system's state $x$
+- related to how quickly the system "leaves" the state
+- easy to measure locally
+- predictive of how likely you are to find the system in that state $x$ at long times
+- useful far from equilibrium, as energy is useful at equilibrium
+- related to how well state $x$ is "matched to" the system's environment
+- a way to explain [order](/docs/background/explaining-order) in nature

@@ -11,14 +11,15 @@ seo:
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
-
 ## Typicality of rattling
 
-More precisely, how common are systems for which the rattling of a state is highly correlated with its weight in the global steady-state distribution? While there are many examples of systems for which rattling holds in this sense, it is unclear how typical rattling is among real-world systems.
+How common are systems for which the rattling $\mathcal{R}(x)$ of a state is predictive of its probability $p_{ss}(x)$ in the global steady-state distribution? 
+While we have many [examples](https://rattling.org/docs/examples/) of classes of systems for which rattling holds in this sense, we still need a better evaluation of how common rattling is among real-world systems (see here[LINK Jacob's result] for our best understanding of this so far).
 
 ## Strength of rattling fine-tuning
 
-
+In systems where rattling holds, can it produce a strongly concentrated $p_{ss}(x)$ distribution? 
+To explain the remarkable degree of organization and order found in nature, the fine-tuning due to Rattling needs to be very strong, requiring $\mathcal{R}(x)$ to vary over several orders of magnitude. Is this possible and likely to happen in natural systems? (see [examples](https://rattling.org/docs/examples/), and specifically the discussion in [REM](https://rattling.org/docs/examples/random-energy-model/))
 
 ## Drive information encoding
 
@@ -35,6 +36,8 @@ Rattling relates a local property of a state to its weight in the global steady-
 What is a principled and practical way to estimate rattling from data?
 
 
+___
+# Other key questions
 
 ## Rattling "one level down"
 
