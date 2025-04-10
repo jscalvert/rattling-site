@@ -14,14 +14,14 @@ seo:
 ## Typicality of rattling
 
 *Rattling $\mathcal{R}(x)$ is a local property of a state $x$ – how common are systems for which it is strongly correlated with its probability $p_{ss}(x)$ in the global steady-state distribution?*
-While we have many [examples](https://rattling.org/docs/examples/) of classes of systems for which rattling holds in this sense, we still need a better evaluation of how common rattling is among real-world systems.
+While we have many [examples](/docs/examples/) of classes of systems for which rattling hypothesis holds in this sense, we still need a better evaluation of how common this is among real-world systems.
 (see here[LINK Jacob's result] for our best understanding of this so far)
 
 ## Strength of rattling fine-tuning
 
 *In systems where rattling holds, can it produce a strongly concentrated $p_{ss}(x)$ distribution?*
 To explain the remarkable degree of organization and order found in nature, the fine-tuning due to Rattling needs to be very strong, requiring $\mathcal{R}(x)$ to vary over several orders of magnitude. Is this possible and likely to happen in natural systems? 
-(see [examples](https://rattling.org/docs/examples/), and specifically the discussion in [REM](https://rattling.org/docs/examples/random-energy-model/))
+(see [examples](https://rattling.org/docs/examples/), and specifically the discussion in [REM](/docs/examples/random-energy-model/))
 
 ## Environmental information encoding
 
