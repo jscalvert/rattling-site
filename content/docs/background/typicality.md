@@ -35,6 +35,17 @@ The main intuition behind "typicality" is that the system is large, complex, and
 -------
 So with this, [the question](/core-questions/#typicality-of-rattling) arises: how typical exactly are dynamical systems where Rattling hypothesis holds? Can we construct a random ensemble representing all real-world dynamical systems, and then see what's the probability of Rattling-friendly systems?
 
+## General guidelines
+
+While we cannot yet give rigorous [*a priori* test](/core-questions/#a-priori-test-of-rattling) that will tell us if Rattling hypothesis will hold, we generally expect it to hold for systems that:
+1) have many interacting degrees of freedom
+2) have no particularly strong symmetries. 
+	This includes linearity, conservation of energy, etc. – as these could make the system act as a low-dimensional one or become integrable), and finally 
+3) are in no way fine-tuned (such as by selection or evolution). 
+	Note since Rattling is most interesting for explaining self-organization, such self-organized configurations or dynamics will necessarily be selected and fine-tuned. So one must distinguish the dynamical system itself from the specific behaviors that it might exhibit – and so this requirement is for the former. More subtle point here is that in some systems self-organization may happen in stages or hierarchically, in which case some sub-space of the dynamics remains "typical," while other degrees of freedom are fine-tuned. This scenario should still work with Rattling, but the details are an [open question](/core-questions/#hierarchical-self-organization).
+
+
+
 
 [^1]:Wigner, Eugene P. "Random matrices in physics." SIAM review 9.1 (1967): 1-23.
 [^2]: See this very nice review D’Alessio, Luca, et al. "From quantum chaos and eigenstate thermalization to statistical mechanics and thermodynamics." Advances in Physics 65.3 (2016): 239-362. 

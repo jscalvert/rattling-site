@@ -43,24 +43,26 @@ Rattling relates a local property of a state to its weight in the global steady-
 
 *What is a principled and practical way to calculate Rattling or estimate it from data?*
 What can Rattling do for you in your specific experiment or question, and how to work with it?
-(see here[LINK] for details on experimental uses, and here[LINK] for discussion on calculating / predicting it)
+(see [here](/docs/background/how-to-use-rattling/) for details on experimental uses, and [here](/docs/research-directions/predicting-rattling/) for discussion on calculating / predicting it)
 
 
 ___
 # More specific questions:
 
-## Rattling under composition 
-instead of Rattling "one level down"?
-[FIX/CLARIFY??] I feel like this be a sub-question of the "under transformations" question?
-
-Rattling is a property of a state of a system. For systems that are groups of interacting elements, a state might consist of the positions of all the elements in the group. How can we relate rattling, a property of the state, to the dynamics of the elements the state comprises? In other words, how can we go "one level down?" Or, equivalently, what is Rattling under coarse-graining? Perhaps even could there be some "Renormalization Group" flow for it?
-(see here[Link pred-rattlinng] for discussion, and the [anharmonic net] example)
-
-
 ## Rattling under transformations
 
-The extent to which rattling predicts a system's steady-state distribution depends on how the states are defined. If you transform the state space, say, by coarse-graining, how does rattling change?
+The extent to which rattling predicts a system's steady-state distribution depends on how the states are defined. If you transform the state space, say, by redefining your degrees of freedom or by coarse-graining, how does rattling change?
 
+## Rattling under composition 
+
+Rattling is a property of a state of a system. For systems that are groups of interacting elements (e.g., a flock of birds), a state might consist of the positions of all the elements (birds) in the group. Can we predict the rattling of such collective system state (flock) based on the rattling or dynamics of the individual elements (birds)? In other words, how can we go "one level down" in composite systems? 
+Note that rather than being just about coarse-graining (as in the question above), this is a question about "interaction Rattling" – in parallel to "interaction energy" that we have in stat. mech. Perhaps even could there be some "Renormalization Group" flow for Rattling?
+(see [here](/docs/research-directions/predicting-rattling/#composability-of-rattling) for discussion, and the [anharmonic net] example)
+
+## Hierarchical self-organization
+
+Most real-world examples of self-organization proceed in stages or hierarchically – e.g., first cells form, then multi-cellular organisms, then organism groups or societies, etc. While the rattling framework should be able to explain and predict such step-wise self-organization, we have yet to develop and study a clear example of this. Some interesting subtleties might arise here because intermediate stages present a scenario where some degrees of freedom are fine-tuned, while others remain "typical."
+(see [Vicsek model](/docs/examples/vicsek-model/), [Kicked Harmonic Net] and [kicked lattice] examples)
 
 ## *A priori* test of rattling
 
