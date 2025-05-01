@@ -25,7 +25,9 @@ So if there was a way to calculate the Rattling of a complex composite system fr
 ## Composability of Rattling?
 
 #### Independent systems
-While this is probably too much to ask in the general case, some progress can likely be made. To begin, we notice that for non-interacting subsystems, steady-state probability distribution factors, and so Rattling is indeed composable:  $p_{ss}(x_{AB}) = p_{ss}(x_A)\; p_{ss}(x_B) \approx e^{-\gamma\; \left(\mathcal{R}(x_A)+\mathcal{R}(x_B)\right)}/Z$. This suggest one possible research direction:
+While this is probably too much to ask in the general case, some progress can likely be made. To begin, we notice that for non-interacting subsystems $A$ and $B$, steady-state probability distribution factors, and so Rattling is indeed composable:  $p_{ss}(x_{AB}) = p_{ss}(x_A)\; p_{ss}(x_B) \approx e^{-\gamma\; \left(\mathcal{R}(x_A)+\mathcal{R}(x_B)\right)}/Z$. We can also verify this from directly calculating Rattling of the composite system: remembering that for continuous systems $\mathcal{R}(x_{AB}) = \frac{1}{2} \log \det \mathcal{C}(x_{AB})$, in terms of the covariance matrix $\mathcal{C}$, which will be block-diagonal for a system composed of two independent subsystems, giving $\det \mathcal{C}_{AB} = \det \mathcal{C}_A\,\det \mathcal{C}_B$, thus consistently recovering $\mathcal{R}(x_{AB}) = \mathcal{R}(x_{A}) + \mathcal{R}(x_{B})$.
+
+This suggest one possible research direction:
 * Perturbatively turn on weak interactions, and see how this affects the composite Rattling values, look for general principles that may extend beyond the perturbative regime. This is similar to the treatment of weakly-coupled field theories, which may, in fact, be a good example to study this on (see Anharmonic Net example [FIX link]). 
 
 #### Stochastic systems

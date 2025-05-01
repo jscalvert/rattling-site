@@ -44,11 +44,12 @@ For questions of adaptation and origins of life, the key concern isn't whether l
 [I like yours, but can you tie it in with the above, and also make it a bit less technical? Also I think can drop first 2 sentences as they are repeats]
 Rattling relates a local property of a state to its weight in the global steady-state distribution. The Markov chain theory of rattling shows that this local property suffices to predict the global weight of a state when the local part varies enough over the states of the system. Does this view of rattling hold even when the global steady-state distribution is replaced by a finite-time distribution?
 
-(this is a wide open question, see this discussion[LINK transient] for what we know so far)
+(this is a wide open question, see this discussion [here](/docs/research-directions/rattling-for-transients/) for what we know so far)
 
 ## Rattling workflow
 
 *What is a principled and practical way to calculate Rattling or estimate it from data?*
+
 What can Rattling do for you in your specific experiment or question, and how to work with it?
 
 (see [here](/docs/background/how-to-use-rattling/) for details on experimental uses, and [here](/docs/research-directions/predicting-rattling/) for discussion on calculating / predicting it)
