@@ -12,6 +12,7 @@ seo:
   canonical: ""
   noindex: false
 author: Pavel Chvykov
+weight: 60
 ---
 Rattling gives us a "[Nonequilibrium Boltzmann Distribution](https://rattling.org/docs/background/neq-boltzmann/)" (a statement that must be carefully qualified and still needs further development and clarification, see link). This is something that has been sought by the nonequilibrium stat mech community for decades, and so if we suppose that we have this, it opens many possibilities. One natural next step is to try to translate the plethora of phenomena and results known from equilibrium thermodynamics to nonequilibrium systems, and verify them on experimental and numerical examples. 
 Let's now go through a few research directions in more detail:

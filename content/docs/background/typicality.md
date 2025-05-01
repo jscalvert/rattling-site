@@ -12,6 +12,7 @@ seo:
   canonical: ""
   noindex: false
 author: Pavel Chvykov
+weight: 17
 ---
 We claim that the Rattling hypothesis holds (i.e., predicts steady-state probability) for "typical" dynamical systems. On the one hand, "typical" here expresses an uncontrolled approximation – for a given system, it may be hard to determine a-priori how well Rattling will hold. On the other hand, it points to the intuition that Rattling should hold most of the time in real-world scenarios. 
 
