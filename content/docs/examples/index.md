@@ -16,5 +16,5 @@ seo:
 
 Here are several entries from an ever-growing list of examples:
 
-- [Random energy model](rem.md). A model of a random Boltzmann distribution on configurations of $+/-$ spins. The configurations have energies that are independent normal random variables.
+- [Random energy model](random-energy-model.md). A model of a random Boltzmann distribution on configurations of $+/-$ spins. The configurations have energies that are independent normal random variables.
 - [Random chemical reaction system](rand-chemistry.md). A model of a chemical reaction system in which a fixed number of species react with random rate constants. The maximum molecularity of the reactions is also fixed.
