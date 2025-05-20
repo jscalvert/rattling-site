@@ -1,7 +1,6 @@
 {
   "htmlElements": {
     "tags": [
-      "\\dot{x}_i,",
       "a",
       "article",
       "aside",
@@ -298,7 +297,6 @@
       "predict-self-organized-configurations",
       "query",
       "random-energy-model-rem",
-      "random-rattling-model",
       "rattling-energy-interactions",
       "rattling-for-transients",
       "rattling-under-composition",
