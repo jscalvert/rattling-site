@@ -29,7 +29,7 @@
 
 [[main]]
   name = "Examples"
-  url = "/docs/examples/random-energy-model/"
+  url = "/docs/examples/"
   weight = 15
 
 [[main]]
