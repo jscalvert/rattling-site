@@ -1,5 +1,5 @@
 ---
-title: Random Energy Model (REM)
+title: Random Energy Model
 description: ""
 summary: ""
 date: 2024-12-04T18:53:05-06:00

@@ -12,7 +12,7 @@ seo:
   canonical: ""
   noindex: false
 author: Pavel Chvykov
-weight: 40
+weight: 140
 ---
 Rattling plays the same role in non-equilibrium steady-state distributions (for [typical](/docs/background/typicality) systems) as energy does in the Boltzmann distribution. This suggests comparing properties of Rattling $\mathcal{R}$ with those of energy, to see if $\mathcal{R}$ can be as powerful as energy in various contexts. 
 Below we present a more intuitive (physics) and more formal (math) perspective on this comparison:

@@ -95,3 +95,7 @@ copyRight = "Copyright (c) 2020–2024 rattling.org"
           inline = [['\(', '\)'], ['$', '$']]
 [params]
   math = true
+
+[services]
+  [services.googleAnalytics]
+    ID = 'G-6MP5NQ8PZK'

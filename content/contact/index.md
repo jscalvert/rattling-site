@@ -12,4 +12,4 @@ seo:
   noindex: false # false (default) or true
 ---
 
-To contact us, ...
+Contact us by sending an email to contact@rattling.org.
