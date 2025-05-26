@@ -5,13 +5,13 @@ summary: ""
 date: 2024-12-04T18:53:05-06:00
 lastmod: 2024-12-04T18:53:05-06:00
 draft: false
+weight: 120
 seo:
   title: ""
   description: ""
   canonical: ""
   noindex: false
-authors:
-  - Pavel Chvykov
+author: Pavel Chvykov
 ---
 One of the simplest, and also most general, models of equilibrium phase transition is the [REM](https://en.wikipedia.org/wiki/Random_energy_model). Here, we consider the case where the energies of the accessible system states are normally distributed $\{U(x)\} \sim \mathcal{N}(0, \sigma)$. This is motivated by the central limit theorem, and applies in cases where the state energy is a sum of many interaction energies that are so messy as to be essentially random – as may be the case for a spin-glass or a folded protein. This model is a prime example of using the assumption of [typicality](https://rattling.org/docs/background/typicality) . 
 

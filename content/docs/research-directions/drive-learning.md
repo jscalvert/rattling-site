@@ -12,6 +12,6 @@ seo:
   canonical: ""
   noindex: false
 author: Pavel Chvykov
-weight: 120
+weight: 220
 ---
 Add fig from Science SI, and discuss Bayes encoding (link paper)
