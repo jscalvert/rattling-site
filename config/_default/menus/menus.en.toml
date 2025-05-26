@@ -29,7 +29,7 @@
 
 [[main]]
   name = "Examples"
-  url = "/docs/examples/summary/"
+  url = "/docs/examples/list-of-examples/"
   weight = 15
 
 [[main]]
