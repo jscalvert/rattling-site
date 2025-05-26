@@ -22,6 +22,8 @@ There can be no analogue of the Boltzmann distribution that applies to all noneq
 This classic no-go theorem from 1975 \[[Landauer75](https://rattling.org/docs/reference/literature/#landauers-blowtorch-theorem)] was a response to the persistent hope in statistical physics to formulate a general "nonequilibrium Boltzmann distribution" – i.e., to express the nonequilibrium steady-state probability of any given state in terms of only *local* observables at that state. Landauer showed that this is in general impossible by providing a counter-example, illustrated in this picture:
 <img src="blowtorch.png" alt="drawing" style="max-width: 600px; width: 100%; height: auto;"/>
 
+![](blowtorch.png)
+
 This shows that we are able to change the steady-state probabilities in the wells $A$ and $B$ without changing anything locally in the neighborhoods of $A$ and $B$. All we need to do is apply localized heat (i.e., "a blowtorch") at another location, here affecting the barrier between these two wells. 
 
 This proves that local information is not sufficient, in general, to predict the steady-state probability (as long as we are in nonequilibrium context). 

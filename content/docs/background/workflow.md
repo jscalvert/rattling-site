@@ -31,7 +31,6 @@ Without knowing $Z$, this allows us to predict relative likelihoods:
 $$\frac{p_{ss}(x)}{p_{ss}(y)} \approx e^{-\gamma \,\left[\mathcal{R}(x) - \mathcal{R}(y)\right]} \tag{3}$$
 The coefficient $\gamma$ here is a system-specific constant, which will often be close to 1, but may deviate somewhat if the system doesn't quite meet the mentioned [guidelines](/docs/background/typicality/#general-guidelines) (e.g., its configuration space is 6-dimensional rather than 100-dimensional). See [here](/docs/background/formalizing-rattling/) for more details on what $\gamma$ is. Either way, it is easy to estimate empirically from a few state-measurements and then make predictions for the rest. 
 
-
 ## Predict absolute likelihoods?
 
 But to predict whether of not a system will self-organize, relative likelihoods are not enough, and so we need to find $Z$. $Z$, however, is not so easy to estimate empirically, since it depends globally on all configurations $x$. Unless we have empirical access to all system states, which is usually impractical, we need some theoretical calculation to find $Z$, and so some theoretical understanding of the global system properties. This is similar to finding the partition function in statistical mechanics, except that calculating energy of a state is well-known, while calculating its rattling is generally an [open question](/docs/research-directions/predicting-rattling/). 
