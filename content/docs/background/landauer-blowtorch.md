@@ -19,9 +19,8 @@ There can be no analogue of the Boltzmann distribution that applies to all noneq
 
 ### A physicist's perspective
 
-This classic no-go theorem from 1975 \[[Landauer75](https://rattling.org/docs/reference/literature/#landauers-blowtorch-theorem)] was a response to the persistent hope in statistical physics to formulate a general "nonequilibrium Boltzmann distribution"—i.e., to express the nonequilibrium steady-state probability of any given state in terms of only *local* observables at that state. Landauer showed that this is in general impossible by providing a counter-example, illustrated in this picture:
-
-![image](blowtorch.png)
+This classic no-go theorem from 1975 \[[Landauer75](https://rattling.org/docs/reference/literature/#landauers-blowtorch-theorem)] was a response to the persistent hope in statistical physics to formulate a general "nonequilibrium Boltzmann distribution" – i.e., to express the nonequilibrium steady-state probability of any given state in terms of only *local* observables at that state. Landauer showed that this is in general impossible by providing a counter-example, illustrated in this picture:
+<img src="blowtorch.png" alt="drawing" style="max-width: 600px; width: 100%; height: auto;"/>
 
 This shows that we are able to change the steady-state probabilities in the wells $A$ and $B$ without changing anything locally in the neighborhoods of $A$ and $B$. All we need to do is apply localized heat (i.e., "a blowtorch") at another location, here affecting the barrier between these two wells. 
 
@@ -43,6 +42,6 @@ Recall the Boltzmann distribution from [the entry on order](/docs/background/exp
 
 The Markov chain analogue of the Boltzmann distribution would be an expression for the probability $\pi(x)$ of a state $x$ as proportional to a "local" function of the rates of the chain. For example, consider the chain with four states depicted below.
 
-![image](nonlocal-demonstration.png)
+<img src="nonlocal-demonstration.png" alt="drawing" style="max-width: 600px; width: 100%; height: auto;"/>
 
 The arrows depict unit rates between the indicated states, aside from $r_{34}$, which is the rate at which the chain transitions from state $3$ to state $4$. The relative probability of states $1$ and $2$ changes as the rate $r_{34}$ varies. This means that it is not possible to write $\pi(x)$ as proportional to a function of the ingoing and outgoing rates of states $1$ and $2$. In other words, the stationary distribution of a Markov chain is generally a nonlocal function of its rates.
