@@ -48,10 +48,9 @@ But there is a useful bound we can use to get a general result: $\mathcal{R}^T(x
 
 ### Different ways to add noise
 Adding thermal noise doesn't always make sense – but we can often add some source of randomness. In [our Science paper](https://www.science.org/doi/10.1126/science.abc6182), we were working with a swarm of robots, and achieved this same effect by adding some randomness to the way we drove their motors. This plot from the paper shows how the above analytical prediction (black lines) matched to the empirical observations (colored lines) for various system configurations $q$ (color indicates $\mathcal{R}(q)$ before the added noise, with blue = low-$\mathcal{R}$ configurations). This correctly predicts the melting phase transition:
-<img src="melting.png" alt="drawing" style="max-width: 600px; width: 100%; height: auto;"/>
-
+![melting](melting.png)
 We also used this same result in another way for the same robot swarm: instead of introducing randomness to the motors, we reduced the table friction so robots would slide around. This meant that the energy being put into the system got a chance to thermalize before being dissipated out – effectively creating a thermal bath for the robots. And energy balance calculation allowed us to calculate this thermal "temperature" as a function of friction, and the above analytical result again gave us a prediction we could verify empirically: 
-<img src="melting2.png" alt="drawing" style="max-width: 300px; width: 100%; height: auto;"/>
+![melting2](melting2.png) 
 
 ## Predict self-organized configurations
 
