@@ -13,8 +13,7 @@ seo:
   canonical: "" # custom canonical URL (optional)
   robots: "" # custom robot tags (optional)
 ---
-[Possibly move all this to homepage later]
-A theoretical framework aimed at explaining order in nature, and specifically self-organization and adaptation in non-living dynamical systems. It is inspired by the quest to understand the general drivers of the origins of life: why non-living matter might spontaneously turn into living matter. It's a new and active area of research, with some of the [core questions](https://rattling.org/core-questions/) having been resolved, and others very much open – [join our effort](https://rattling.org/contact/)!
+A theoretical framework aimed at explaining order in nature, and specifically self-organization and adaptation in non-living dynamical systems. It is inspired by the quest to understand the general drivers of the origins of life: why non-living matter might spontaneously turn into living matter. It's a new and active area of research, with some of the [core questions](https://rattling.org/core-questions/) having been resolved, and others very much open—[join our effort](/contact/)!
 
 Rattling $\mathcal{R}(x)$ is: 
 
