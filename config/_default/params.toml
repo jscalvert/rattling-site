@@ -122,13 +122,13 @@ mainSections = ["docs"]
     suffix = ""
   [seo.favicons]
     sizes = []
-    icon = "favicon.png" # favicon.png (default)
-    svgIcon = "favicon.svg" # favicon.svg (default)
+    icon = "/favicon.png" # favicon.png (default)
+    svgIcon = "/favicon.svg" # favicon.svg (default)
     maskIcon = "mask-icon.svg" # mask-icon.svg (default)
     maskIconColor = "white" # white (default)
   [seo.schemas]
     type = "Organization" # Organization (default) or Person
-    logo = "favicon.png" # Logo of Organization — favicon-512x512.png (default)
+    logo = "/favicon.png" # Logo of Organization — favicon-512x512.png (default)
     name = "Thulite" # Name of Organization or Person
     sameAs = [] # E.g. ["https://github.com/thuliteio/thulite", "https://fosstodon.org/@thulite"]
     images = ["cover.png"] # ["cover.png"] (default)
