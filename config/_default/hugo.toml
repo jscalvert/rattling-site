@@ -1,5 +1,5 @@
 title = "Rattling"
-baseurl = "http://rattling.org/"
+baseurl = "https://rattling.org/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
