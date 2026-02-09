@@ -1,1 +1,52 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>/docs/background/whats-rattling/</loc><lastmod>2023-09-07T16:04:48+02:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url><loc>/docs/background/explaining-order/</loc><lastmod>2023-09-07T16:04:48+02:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url><loc>/docs/background/landauers-blowtorch/</loc><lastmod>2024-12-04T18:53:05-06:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url><loc>/docs/background/typicality/</loc><lastmod>2024-12-04T18:53:05-06:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url><loc>/docs/background/nonequilibrium-boltzmann-distribution/</loc><lastmod>2024-12-04T18:59:06-06:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url><loc>/docs/background/formalizing-rattling/</loc><lastmod>2024-12-04T18:59:06-06:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url><loc>/docs/background/how-to-use-rattling/</loc><lastmod>2024-12-04T18:53:05-06:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+    <url>
+      <loc>http://localhost:1313/docs/background/whats-rattling/</loc>
+      <lastmod>2023-09-07T16:04:48+02:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    
+    <url>
+      <loc>http://localhost:1313/docs/background/explaining-order/</loc>
+      <lastmod>2023-09-07T16:04:48+02:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    
+    <url>
+      <loc>http://localhost:1313/docs/background/landauers-blowtorch/</loc>
+      <lastmod>2024-12-04T18:53:05-06:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    
+    <url>
+      <loc>http://localhost:1313/docs/background/typicality/</loc>
+      <lastmod>2024-12-04T18:53:05-06:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    
+    <url>
+      <loc>http://localhost:1313/docs/background/nonequilibrium-boltzmann-distribution/</loc>
+      <lastmod>2024-12-04T18:59:06-06:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    
+    <url>
+      <loc>http://localhost:1313/docs/background/formalizing-rattling/</loc>
+      <lastmod>2024-12-04T18:59:06-06:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    
+    <url>
+      <loc>http://localhost:1313/docs/background/how-to-use-rattling/</loc>
+      <lastmod>2024-12-04T18:53:05-06:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    </urlset>

@@ -1,3 +1,557 @@
-<!doctype html><html lang=en data-bs-theme=auto><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=preload href=/fonts/vendor/jost/jost-v4-latin-regular.woff2 as=font type=font/woff2 crossorigin><link rel=preload href=/fonts/vendor/jost/jost-v4-latin-500.woff2 as=font type=font/woff2 crossorigin><link rel=preload href=/fonts/vendor/jost/jost-v4-latin-700.woff2 as=font type=font/woff2 crossorigin><script src=/js/color-mode.86a91f050a481d0a3f0c72ac26543cb6228c770875981c58dcbc008fd3f875c8.js integrity="sha256-hqkfBQpIHQo/DHKsJlQ8tiKMdwh1mBxY3LwAj9P4dcg="></script><link rel=stylesheet href="/main.05dd170fecfa989ac3157c6f4e068ba9bf1fa07c352a63762aa82c829d17da3fed5f29d46a703c215a61c10da889948d64481bb46d24ff37b157d4919fa4e28d.css" integrity="sha512-Bd0XD+z6mJrDFXxvTgaLqb8foHw1KmN2Kqgsgp0X2j/tXynUanA8IVphwQ2oiZSNZEgbtG0k/zexV9SRn6TijQ==" crossorigin=anonymous><noscript><style>img.lazyload{display:none}</style></noscript><base href=/docs/research-directions/rattling-for-transients/><link rel=canonical href=/docs/research-directions/rattling-for-transients/><title>Rattling for transients | Rattling</title>
-<meta name=description content="A community for understanding self-organization"><link rel=icon href=/favicon.ico sizes=32x32><link rel=icon href=/favicon.svg type=image/svg+xml><link rel=apple-touch-icon href=/apple-touch-icon.png sizes=180x180 type=image/png><link rel=icon href=/favicon-192x192.png sizes=192x192 type=image/png><link rel=icon href=/favicon-512x512.png sizes=512x512 type=image/png><link rel=manifest href=/manifest.webmanifest><meta property="og:url" content="/docs/research-directions/rattling-for-transients/"><meta property="og:site_name" content="Rattling"><meta property="og:title" content="Rattling for transients"><meta property="og:description" content="Rattling 1 paper, non-ergodic relaxation"><meta property="og:locale" content="en"><meta property="og:type" content="article"><meta property="article:section" content="docs"><meta property="article:published_time" content="2024-12-04T18:53:05-06:00"><meta property="article:modified_time" content="2024-12-04T18:53:05-06:00"><meta property="og:image" content="/cover.png"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="/cover.png"><meta name=twitter:title content="Rattling for transients"><meta name=twitter:description content="Rattling 1 paper, non-ergodic relaxation"><meta name=twitter:site content="@getdoks"><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"/","name":"How Does Order Arise in Nature?","position":1},{"@type":"ListItem","item":"/docs/","name":"Learn","position":2},{"@type":"ListItem","item":"/docs/research-directions/","name":"Research Directions","position":3},{"@type":"ListItem","name":"Rattling for Transients","position":4}]}</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-6MP5NQ8PZK"></script><script>var dnt,doNotTrack=!1;if(!1&&(dnt=navigator.doNotTrack||window.doNotTrack||navigator.msDoNotTrack,doNotTrack=dnt=="1"||dnt=="yes"),!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-6MP5NQ8PZK")}</script><head><script id=MathJax-script async src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js></script><script>MathJax={tex:{displayMath:[["\\[","\\]"],["$$","$$"]],inlineMath:[["\\(","\\)"],["$","$"]]}}</script></head></head><body class="single section docs" data-bs-spy=scroll data-bs-target=#toc data-bs-root-margin="0px 0px -60%" data-bs-smooth-scroll=true tabindex=0><div class=sticky-top><header class="navbar navbar-expand-lg"><div class=container-lg><a class="navbar-brand me-auto me-lg-3" href=/>Rattling</a>
-<button class="btn btn-link d-lg-none" type=button data-bs-toggle=offcanvas data-bs-target=#offcanvasNavSection aria-controls=offcanvasNavSection aria-label="Open section navigation menu"><svg class="icon icon-tabler icon-tabler-dots-vertical" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-1 0a1 1 0 102 0 1 1 0 10-2 0"/><path d="M12 19m-1 0a1 1 0 102 0 1 1 0 10-2 0"/><path d="M12 5m-1 0a1 1 0 102 0 1 1 0 10-2 0"/></svg></button><div class="offcanvas offcanvas-start d-lg-none" tabindex=-1 id=offcanvasNavSection aria-labelledby=offcanvasNavSectionLabel><div class=offcanvas-header><h5 class=offcanvas-title id=offcanvasNavSectionLabel>Docs</h5><button type=button class="btn btn-link nav-link p-0 ms-auto" data-bs-dismiss=offcanvas aria-label=Close><svg class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18 6 6 18"/><path d="M6 6l12 12"/></svg></button></div><div class=offcanvas-body><aside class="doks-sidebar mt-n3"><nav id=doks-docs-nav aria-label="Tertiary navigation"><nav class="section-nav docs-links"><ul class=list-unstyled><li><details open><summary>Background</summary><ul class="list-unstyled list-nested"><li><a href=/docs/background/whats-rattling/>What's rattling?</a></li><li><a href=/docs/background/explaining-order/>Explaining order</a></li><li><a href=/docs/background/landauers-blowtorch/>Landauer's blowtorch</a></li><li><a href=/docs/background/typicality/>Typicality</a></li><li><a href=/docs/background/nonequilibrium-boltzmann-distribution/>Nonequilibrium Boltzmann distribution</a></li><li><a href=/docs/background/formalizing-rattling/>Formalizing rattling</a></li><li><a href=/docs/background/how-to-use-rattling/>How to use rattling</a></li></ul></details></li><li><details open><summary>Examples</summary><ul class="list-unstyled list-nested"><li><a href=/docs/examples/list-of-examples/>List of examples</a></li><li><a href=/docs/examples/random-energy-model/>Random energy model</a></li><li><a href=/docs/examples/random-chemistry/>Random chemistry</a></li></ul></details></li><li><details open open><summary>Research directions</summary><ul class="list-unstyled list-nested"><li><a href=/docs/research-directions/predicting-rattling/>Predicting rattling</a></li><li><a href=/docs/research-directions/learning-from-the-drive/>Learning from the drive</a></li><li class=active><a aria-current=page href=/docs/research-directions/rattling-for-transients/>Rattling for transients</a></li><li><a href=/docs/research-directions/rattling-vs-energy/>Rattling vs energy</a></li><li><a href=/docs/research-directions/rattling-vs-entropy/>Rattling vs entropy</a></li><li><a href=/docs/research-directions/rattling-thermodynamics/>Rattling thermodynamics</a></li></ul></details></li></ul></nav></nav></aside></div></div><button class="btn btn-link nav-link mx-2 order-3 d-lg-none" type=button data-bs-toggle=offcanvas data-bs-target=#offcanvasNavMain aria-controls=offcanvasNavMain aria-label="Open main navigation menu"><svg class="icon icon-tabler icon-tabler-menu" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><line x1="4" y1="8" x2="20" y2="8"/><line x1="4" y1="16" x2="20" y2="16"/></svg></button><div class="offcanvas offcanvas-end h-auto" tabindex=-1 id=offcanvasNavMain aria-labelledby=offcanvasNavMainLabel><div class=offcanvas-header><h5 class=offcanvas-title id=offcanvasNavMainLabel>Rattling</h5><button type=button class="btn btn-link nav-link p-0 ms-auto" data-bs-dismiss=offcanvas aria-label=Close><svg class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18 6 6 18"/><path d="M6 6l12 12"/></svg></button></div><div class="offcanvas-body d-flex flex-column flex-lg-row justify-content-between"><ul class="navbar-nav flex-grow-1"><li class=nav-item><a class=nav-link href=/docs/background/whats-rattling/>Background</a></li><li class=nav-item><a class=nav-link href=/docs/examples/list-of-examples/>Examples</a></li><li class=nav-item><a class=nav-link href=/docs/research-directions/rattling-thermodynamics/>Research Directions</a></li><li class=nav-item><a class=nav-link href=/core-questions/>Core Questions</a></li><li class=nav-item><a class=nav-link href=/talks/>Talks</a></li><li class=nav-item><a class=nav-link href=/about/>About</a></li><li class=nav-item><a class=nav-link href=/contact/>Contact</a></li></ul><button id=buttonColorMode class="btn btn-link mx-auto nav-link p-0 ms-lg-2 me-lg-1" type=button aria-label="Toggle theme"><svg data-bs-theme-value="dark" class="icon icon-tabler icon-tabler-moon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 3c.132.0.263.0.393.0a7.5 7.5.0 007.92 12.446A9 9 0 1112 2.992z"/></svg><svg data-bs-theme-value="light" class="icon icon-tabler icon-tabler-sun" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-4 0a4 4 0 108 0 4 4 0 10-8 0m-5 0h1m8-9v1m8 8h1m-9 8v1M5.6 5.6l.7.7m12.1-.7-.7.7m0 11.4.7.7m-12.1-.7-.7.7"/></svg></button></div></div></div></header></div><div class="wrap container-lg" role=document><div class=content><div class="row flex-xl-nowrap"><div class="col-lg-5 col-xl-4 docs-sidebar d-none d-lg-block"><nav class="section-nav docs-links"><ul class=list-unstyled><li><details open><summary>Background</summary><ul class="list-unstyled list-nested"><li><a href=/docs/background/whats-rattling/>What's rattling?</a></li><li><a href=/docs/background/explaining-order/>Explaining order</a></li><li><a href=/docs/background/landauers-blowtorch/>Landauer's blowtorch</a></li><li><a href=/docs/background/typicality/>Typicality</a></li><li><a href=/docs/background/nonequilibrium-boltzmann-distribution/>Nonequilibrium Boltzmann distribution</a></li><li><a href=/docs/background/formalizing-rattling/>Formalizing rattling</a></li><li><a href=/docs/background/how-to-use-rattling/>How to use rattling</a></li></ul></details></li><li><details open><summary>Examples</summary><ul class="list-unstyled list-nested"><li><a href=/docs/examples/list-of-examples/>List of examples</a></li><li><a href=/docs/examples/random-energy-model/>Random energy model</a></li><li><a href=/docs/examples/random-chemistry/>Random chemistry</a></li></ul></details></li><li><details open open><summary>Research directions</summary><ul class="list-unstyled list-nested"><li><a href=/docs/research-directions/predicting-rattling/>Predicting rattling</a></li><li><a href=/docs/research-directions/learning-from-the-drive/>Learning from the drive</a></li><li class=active><a aria-current=page href=/docs/research-directions/rattling-for-transients/>Rattling for transients</a></li><li><a href=/docs/research-directions/rattling-vs-energy/>Rattling vs energy</a></li><li><a href=/docs/research-directions/rattling-vs-entropy/>Rattling vs entropy</a></li><li><a href=/docs/research-directions/rattling-thermodynamics/>Rattling thermodynamics</a></li></ul></details></li></ul></nav></div><nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation"><div class=page-links></div></nav><main class="docs-content col-lg-11 col-xl-9 mx-xl-auto"><h1>Rattling for transients</h1><nav class="toc-mobile d-xl-none" aria-label="Quaternary navigation"></nav><p>Rattling 1 paper, non-ergodic relaxation</p><div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between"></div><div class="page-nav d-flex flex-column flex-sm-row"><div class="card w-100"><div class="card-body d-flex"><div class="d-flex flex-column justify-content-center"><svg class="icon icon-tabler icon-tabler-arrow-left" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12h14"/><path d="M5 12l6 6"/><path d="M5 12l6-6"/></svg></div><div class="d-flex flex-column"><div class=text-body-secondary>Prev</div><a href=/docs/research-directions/learning-from-the-drive/ class="stretched-link text-reset text-decoration-none">Learning from the drive</a></div></div></div><div class=m-2></div><div class="card text-end w-100"><div class="card-body d-flex justify-content-end"><div class="d-flex flex-column"><div class=text-body-secondary>Next</div><a href=/docs/research-directions/rattling-vs-energy/ class="stretched-link text-reset text-decoration-none">Rattling vs energy</a></div><div class="d-flex flex-column justify-content-center"><svg class="icon icon-tabler icon-tabler-arrow-right" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12h14"/><path d="M13 18l6-6"/><path d="M13 6l6 6"/></svg></div></div></div></div></main></div></div></div><footer class="footer text-muted"><div class=container-lg><div class=row><div class="col-lg-8 text-center text-lg-start"><ul class=list-inline></ul></div><div class="col-lg-8 text-center text-lg-end"><ul class=list-inline><li class=list-inline-item>Brought to you by <a class=text-muted href=https://thulite.io/>Thulite</a></li></ul></div></div></div></footer><script async src=/js/app.c17553444ec7c62f781ddbaa011948f6d85a1bab49420047d68a2b89852a8b36.js integrity="sha256-wXVTRE7Hxi94HduqARlI9thaG6tJQgBH1ooriYUqizY="></script><div class="d-inline-flex fixed-bottom-right pb-4 pe-4"><button id=toTop type=button class="btn btn-primary rounded-circle ms-auto p-2"><span class=visually-hidden>Top</span><svg class="icon icon-tabler icon-tabler-chevron-up" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M6 15l6-6 6 6"/></svg></button></div></body></html>
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="preload" href="http://localhost:1313/fonts/vendor/jost/jost-v4-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="http://localhost:1313/fonts/vendor/jost/jost-v4-latin-500.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="http://localhost:1313/fonts/vendor/jost/jost-v4-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+<script 
+  src="/js/color-mode.f14b3e296de1d0b69e75af684b62a4a912a2cadab04e36123407cd8388204f1d.js"
+  integrity="sha256-8Us&#43;KW3h0Laeda9oS2KkqRKiytqwTjYSNAfNg4ggTx0=">
+</script>
+
+
+<link rel="stylesheet" href="/main.7e5111c06bd03b35bddee3e0ff7f5223facab9312f6c9f4ccb3a1536c1bbb6dc622b5243f6fa7ddffebc5cea1c1f35c9e23119cd1648980ef0153a8da7a3e59a.css" integrity="sha512-flERwGvQOzW93uPg/39SI/rKuTEvbJ9MyzoVNsG7ttxiK1JD9vp93/68XOocHzXJ4jEZzRZImA7wFTqNp6Plmg==" crossorigin="anonymous">
+
+<noscript><style>img.lazyload { display: none; }</style></noscript><base href="http://localhost:1313/docs/research-directions/rattling-for-transients/">
+
+  <link rel="canonical" href="http://localhost:1313/docs/research-directions/rattling-for-transients/">
+
+
+<title>Rattling for transients  |  Rattling</title>
+<meta name="description" content="A community for understanding self-organization">
+
+    
+    <link rel="icon" href="/favicon.ico" sizes="32x32">
+    
+      <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    
+      <link
+        rel="apple-touch-icon"
+        href="/apple-touch-icon.png"
+        sizes="180x180"
+        type="image/png"
+      >
+      <link
+        rel="icon"
+        href="/favicon-192x192.png"
+        sizes="192x192"
+        type="image/png"
+      >
+      <link
+        rel="icon"
+        href="/favicon-512x512.png"
+        sizes="512x512"
+        type="image/png"
+      >
+<link rel="manifest" href="/manifest.webmanifest">
+
+<meta property="og:url" content="http://localhost:1313/docs/research-directions/rattling-for-transients/">
+  <meta property="og:site_name" content="Rattling">
+  <meta property="og:title" content="Rattling for transients">
+  <meta property="og:description" content="Rattling 1 paper, non-ergodic relaxation">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="docs">
+    <meta property="article:published_time" content="2024-12-04T18:53:05-06:00">
+    <meta property="article:modified_time" content="2024-12-04T18:53:05-06:00">
+    <meta property="og:image" content="http://localhost:1313/cover.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/cover.png">
+  <meta name="twitter:title" content="Rattling for transients">
+  <meta name="twitter:description" content="Rattling 1 paper, non-ergodic relaxation">
+      <meta name="twitter:site" content="@getdoks">
+
+    
+    
+    <script type="application/ld+json">
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+     {
+       "@type": "ListItem",
+       "item": "http://localhost:1313/",
+       "name": "How Does Order Arise in Nature?",
+       "position": 1
+     },
+     {
+       "@type": "ListItem",
+       "item": "http://localhost:1313/docs/",
+       "name": "Learn",
+       "position": 2
+     },
+     {
+       "@type": "ListItem",
+       "item": "http://localhost:1313/docs/research-directions/",
+       "name": "Research Directions",
+       "position": 3
+     },
+     {
+       "@type": "ListItem",
+       "name": "Rattling for Transients",
+       "position": 4
+     }
+   ]
+ }
+</script>
+
+
+
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-6MP5NQ8PZK"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-6MP5NQ8PZK');
+        }
+      </script>
+<head>
+
+  
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+      inlineMath: [['\\(', '\\)'], ['$', '$']]     
+    }
+  };
+</script>
+  
+
+</head>
+
+</head>
+
+  
+  <body class="single section docs" data-bs-spy="scroll" data-bs-target="#toc" data-bs-root-margin="0px 0px -60%" data-bs-smooth-scroll="true" tabindex="0">
+    <div class="sticky-top">
+<header class="navbar navbar-expand-lg">
+  <div class="container-lg">
+  
+    <a class="navbar-brand me-auto me-lg-3" href="/">Rattling</a>
+
+    
+    
+    
+    <button class="btn btn-link d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavSection" aria-controls="offcanvasNavSection" aria-label="Open section navigation menu">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-dots-vertical" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+        <path d="M12 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+        <path d="M12 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+      </svg>
+    </button>
+    <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="offcanvasNavSection" aria-labelledby="offcanvasNavSectionLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavSectionLabel">Docs</h5>
+        <button type="button" class="btn btn-link nav-link p-0 ms-auto" data-bs-dismiss="offcanvas" aria-label="Close">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M18 6l-12 12"></path>
+            <path d="M6 6l12 12"></path>
+          </svg>
+        </button>
+      </div>
+      <div class="offcanvas-body">
+        <aside class="doks-sidebar mt-n3">
+          <nav id="doks-docs-nav" aria-label="Tertiary navigation">
+            
+  
+    
+<nav class="section-nav docs-links">
+  <ul class="list-unstyled">
+
+  <li>
+    <details open>
+      <summary>Background</summary>
+      <ul class="list-unstyled list-nested">
+
+  <li>
+      <a href="/docs/background/whats-rattling/">What&#39;s rattling?</a>
+  </li>
+
+  <li>
+      <a href="/docs/background/explaining-order/">Explaining order</a>
+  </li>
+
+  <li>
+      <a href="/docs/background/landauers-blowtorch/">Landauer&#39;s blowtorch</a>
+  </li>
+
+  <li>
+      <a href="/docs/background/typicality/">Typicality</a>
+  </li>
+
+  <li>
+      <a href="/docs/background/nonequilibrium-boltzmann-distribution/">Nonequilibrium Boltzmann distribution</a>
+  </li>
+
+  <li>
+      <a href="/docs/background/formalizing-rattling/">Formalizing rattling</a>
+  </li>
+
+  <li>
+      <a href="/docs/background/how-to-use-rattling/">How to use rattling</a>
+  </li>
+      </ul>
+    </details>
+  </li>
+
+  <li>
+    <details open>
+      <summary>Examples</summary>
+      <ul class="list-unstyled list-nested">
+
+  <li>
+      <a href="/docs/examples/list-of-examples/">List of examples</a>
+  </li>
+
+  <li>
+      <a href="/docs/examples/markov-chains-with-random-rates/">Markov chains with random rates</a>
+  </li>
+
+  <li>
+      <a href="/docs/examples/random-energy-model/">Random energy model</a>
+  </li>
+
+  <li>
+      <a href="/docs/examples/random-chemistry/">Random chemistry</a>
+  </li>
+      </ul>
+    </details>
+  </li>
+
+  <li>
+    <details open open>
+      <summary>Research directions</summary>
+      <ul class="list-unstyled list-nested">
+
+  <li>
+      <a href="/docs/research-directions/predicting-rattling/">Predicting rattling</a>
+  </li>
+
+  <li>
+      <a href="/docs/research-directions/learning-from-the-drive/">Learning from the drive</a>
+  </li>
+
+  <li class="active" >
+      <a aria-current="page" href="/docs/research-directions/rattling-for-transients/">Rattling for transients</a>
+  </li>
+
+  <li>
+      <a href="/docs/research-directions/rattling-vs-energy/">Rattling vs energy</a>
+  </li>
+
+  <li>
+      <a href="/docs/research-directions/rattling-vs-entropy/">Rattling vs entropy</a>
+  </li>
+
+  <li>
+      <a href="/docs/research-directions/rattling-thermodynamics/">Rattling thermodynamics</a>
+  </li>
+      </ul>
+    </details>
+  </li>
+  </ul>
+</nav>
+
+  
+
+          </nav>
+        </aside>
+      </div>
+    </div>
+    
+    <button class="btn btn-link nav-link mx-2 order-3 d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavMain" aria-controls="offcanvasNavMain" aria-label="Open main navigation menu">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <line x1="4" y1="8" x2="20" y2="8"></line>
+        <line x1="4" y1="16" x2="20" y2="16"></line>
+      </svg>
+    </button>
+
+    
+    <div class="offcanvas offcanvas-end h-auto" tabindex="-1" id="offcanvasNavMain" aria-labelledby="offcanvasNavMainLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavMainLabel">Rattling</h5>
+        <button type="button" class="btn btn-link nav-link p-0 ms-auto" data-bs-dismiss="offcanvas" aria-label="Close">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M18 6l-12 12"></path>
+            <path d="M6 6l12 12"></path>
+         </svg>
+        </button>
+      </div>
+      
+      <div class="offcanvas-body d-flex flex-column flex-lg-row justify-content-between">
+        <ul class="navbar-nav flex-grow-1"><li class="nav-item">
+                <a class="nav-link" href="http://localhost:1313/docs/background/whats-rattling/">Background</a>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link" href="http://localhost:1313/docs/examples/list-of-examples/">Examples</a>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link" href="http://localhost:1313/docs/research-directions/rattling-thermodynamics/">Research Directions</a>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link" href="http://localhost:1313/core-questions/">Core Questions</a>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link" href="http://localhost:1313/talks/">Talks</a>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link" href="http://localhost:1313/about/">About</a>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link" href="http://localhost:1313/contact/">Contact</a>
+              </li>
+            </ul>
+
+        
+        
+        
+        
+        
+        <button id="buttonColorMode" class="btn btn-link mx-auto nav-link p-0 ms-lg-2 me-lg-1" type="button" aria-label="Toggle theme">
+          <svg data-bs-theme-value="dark" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-moon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"></path>
+          </svg>
+          <svg data-bs-theme-value="light" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-sun" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0m-5 0h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7"></path>
+          </svg>
+        </button>
+        
+        
+        </div>
+    </div>
+
+    
+    </div>
+</header>
+</div>
+
+
+    <div class="wrap container-lg" role="document">
+      <div class="content">
+      
+        
+	<div class="row flex-xl-nowrap">
+		<div class="col-lg-5 col-xl-4 docs-sidebar d-none d-lg-block">
+			
+  
+    
+<nav class="section-nav docs-links">
+  <ul class="list-unstyled">
+
+  <li>
+    <details open>
+      <summary>Background</summary>
+      <ul class="list-unstyled list-nested">
+
+  <li>
+      <a href="/docs/background/whats-rattling/">What&#39;s rattling?</a>
+  </li>
+
+  <li>
+      <a href="/docs/background/explaining-order/">Explaining order</a>
+  </li>
+
+  <li>
+      <a href="/docs/background/landauers-blowtorch/">Landauer&#39;s blowtorch</a>
+  </li>
+
+  <li>
+      <a href="/docs/background/typicality/">Typicality</a>
+  </li>
+
+  <li>
+      <a href="/docs/background/nonequilibrium-boltzmann-distribution/">Nonequilibrium Boltzmann distribution</a>
+  </li>
+
+  <li>
+      <a href="/docs/background/formalizing-rattling/">Formalizing rattling</a>
+  </li>
+
+  <li>
+      <a href="/docs/background/how-to-use-rattling/">How to use rattling</a>
+  </li>
+      </ul>
+    </details>
+  </li>
+
+  <li>
+    <details open>
+      <summary>Examples</summary>
+      <ul class="list-unstyled list-nested">
+
+  <li>
+      <a href="/docs/examples/list-of-examples/">List of examples</a>
+  </li>
+
+  <li>
+      <a href="/docs/examples/markov-chains-with-random-rates/">Markov chains with random rates</a>
+  </li>
+
+  <li>
+      <a href="/docs/examples/random-energy-model/">Random energy model</a>
+  </li>
+
+  <li>
+      <a href="/docs/examples/random-chemistry/">Random chemistry</a>
+  </li>
+      </ul>
+    </details>
+  </li>
+
+  <li>
+    <details open open>
+      <summary>Research directions</summary>
+      <ul class="list-unstyled list-nested">
+
+  <li>
+      <a href="/docs/research-directions/predicting-rattling/">Predicting rattling</a>
+  </li>
+
+  <li>
+      <a href="/docs/research-directions/learning-from-the-drive/">Learning from the drive</a>
+  </li>
+
+  <li class="active" >
+      <a aria-current="page" href="/docs/research-directions/rattling-for-transients/">Rattling for transients</a>
+  </li>
+
+  <li>
+      <a href="/docs/research-directions/rattling-vs-energy/">Rattling vs energy</a>
+  </li>
+
+  <li>
+      <a href="/docs/research-directions/rattling-vs-entropy/">Rattling vs entropy</a>
+  </li>
+
+  <li>
+      <a href="/docs/research-directions/rattling-thermodynamics/">Rattling thermodynamics</a>
+  </li>
+      </ul>
+    </details>
+  </li>
+  </ul>
+</nav>
+
+  
+
+		</div>
+		
+		<nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation">
+			<div class="page-links">
+  
+</div>
+
+		</nav>
+		<main class="docs-content col-lg-11 col-xl-9 mx-xl-auto">
+		
+			<h1>Rattling for transients</h1>
+			
+			
+			<nav class="toc-mobile d-xl-none" aria-label="Quaternary navigation">
+				
+			</nav>
+			<p>Rattling 1 paper, non-ergodic relaxation</p>
+
+			<div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between">
+				</div>
+			<div class="page-nav d-flex flex-column flex-sm-row">
+	
+	<div class="card w-100">
+			<div class="card-body d-flex">
+				<div class="d-flex flex-column justify-content-center">
+					<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-left" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+						<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+						<path d="M5 12l14 0"></path>
+						<path d="M5 12l6 6"></path>
+						<path d="M5 12l6 -6"></path>
+				 	</svg>
+				</div>
+				<div class="d-flex flex-column">
+					<div class="text-body-secondary">Prev</div>
+					<a href="/docs/research-directions/learning-from-the-drive/" class="stretched-link text-reset text-decoration-none">Learning from the drive</a>
+				</div>
+			</div>
+		</div>
+	<div class="m-2"></div>
+	<div class="card text-end w-100">
+			<div class="card-body d-flex justify-content-end">
+				<div class="d-flex flex-column">
+					<div class="text-body-secondary">Next</div>
+					<a href="/docs/research-directions/rattling-vs-energy/" class="stretched-link text-reset text-decoration-none">Rattling vs energy</a>
+				</div>
+				<div class="d-flex flex-column justify-content-center">
+					<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-right" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+						<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+						<path d="M5 12l14 0"></path>
+						<path d="M13 18l6 -6"></path>
+						<path d="M13 6l6 6"></path>
+					</svg>
+				</div>
+			</div>
+		</div>
+	</div>
+
+			
+		</main>
+		
+	</div>
+
+      
+      </div>
+    </div>
+    
+    
+    <footer class="footer text-muted">
+  <div class="container-lg">
+    <div class="row">
+      <div class="col-lg-8 text-center text-lg-start">
+        <ul class="list-inline">
+          
+        </ul>
+      </div>
+      <div class="col-lg-8 text-center text-lg-end">
+        <ul class="list-inline">
+          <li class="list-inline-item">Brought to you by <a class="text-muted" href="https://thulite.io/">Thulite</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    
+
+<script async
+  src="/js/app.bda28ee466c73520f1844dae237e40061f34878d3425dbaffefc0d5907092980.js"
+  integrity="sha256-vaKO5GbHNSDxhE2uI35ABh80h400Jduv/vwNWQcJKYA=">
+</script>
+
+
+
+
+
+
+    <div class="d-inline-flex fixed-bottom-right pb-4 pe-4">
+  <button id="toTop" type="button" class="btn btn-primary rounded-circle ms-auto p-2"><span class="visually-hidden">Top</span><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-up" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M6 15l6 -6l6 6"></path></svg></button>
+</div>
+
+    
+  </body>
+</html>

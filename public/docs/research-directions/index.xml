@@ -1,4 +1,55 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research directions on Rattling</title><link>/docs/research-directions/</link><description>Recent content in Research directions on Rattling</description><generator>Hugo</generator><language>en</language><copyright>Copyright (c) 2024–2025 rattling.org</copyright><lastBuildDate>Wed, 04 Dec 2024 18:53:05 -0600</lastBuildDate><atom:link href="/docs/research-directions/index.xml" rel="self" type="application/rss+xml"/><item><title>Predicting rattling</title><link>/docs/research-directions/predicting-rattling/</link><pubDate>Wed, 04 Dec 2024 18:53:05 -0600</pubDate><guid>/docs/research-directions/predicting-rattling/</guid><description>&lt;p>[For broader context, see &lt;a href="https://rattling.org/docs/background/rattling-thermo/">Rattling Thermodynamics&lt;/a>]
-One limitation of the Rattling framework $p_{ss}(x) \approx e^{-\gamma\; \mathcal{R}(x)}/Z \tag{1}$ is that for arbitrary far-from-equilibrium nonlinear dynamical systems, it is difficult to analytically estimate Rattling of any given state $\mathcal{R}(x)$. So we often need to explicitly measure $\mathcal{R}(x)$. This still allows us to predict global steady-state in terms of only local measurements of Rattling, and so is already practically useful, but the cases where we can predict $\mathcal{R}(x)$ analytically allow for much more prediction and control.&lt;/p></description></item><item><title>Learning from the drive</title><link>/docs/research-directions/learning-from-the-drive/</link><pubDate>Wed, 04 Dec 2024 18:53:05 -0600</pubDate><guid>/docs/research-directions/learning-from-the-drive/</guid><description>&lt;p>What makes Rattling theory especially interesting is that while it starts as a simple claim about system dynamics, it leads to a claim about information content of selected system configurations and learning from the drive.&lt;/p></description></item><item><title>Rattling for transients</title><link>/docs/research-directions/rattling-for-transients/</link><pubDate>Wed, 04 Dec 2024 18:53:05 -0600</pubDate><guid>/docs/research-directions/rattling-for-transients/</guid><description>&lt;p>Rattling 1 paper, non-ergodic relaxation&lt;/p></description></item><item><title>Rattling vs energy</title><link>/docs/research-directions/rattling-vs-energy/</link><pubDate>Wed, 04 Dec 2024 18:53:05 -0600</pubDate><guid>/docs/research-directions/rattling-vs-energy/</guid><description>&lt;p>Rattling plays the same role in non-equilibrium steady-state distributions (for &lt;a href="/docs/background/typicality">typical&lt;/a> systems) as energy does in the Boltzmann distribution. This suggests comparing properties of Rattling $\mathcal{R}$ with those of energy, to see if $\mathcal{R}$ can be as powerful as energy in various contexts.
-Below we present a more intuitive (physics) and more formal (math) perspective on this comparison:&lt;/p></description></item><item><title>Rattling vs entropy</title><link>/docs/research-directions/rattling-vs-entropy/</link><pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate><guid>/docs/research-directions/rattling-vs-entropy/</guid><description>&lt;p>Rattling is just about re-scaling time. Strong parallels to entropy&lt;/p></description></item><item><title>Rattling thermodynamics</title><link>/docs/research-directions/rattling-thermodynamics/</link><pubDate>Wed, 04 Dec 2024 18:53:05 -0600</pubDate><guid>/docs/research-directions/rattling-thermodynamics/</guid><description>&lt;p>Rattling gives us a &amp;ldquo;&lt;a href="https://rattling.org/docs/background/neq-boltzmann/">Nonequilibrium Boltzmann Distribution&lt;/a>&amp;rdquo; (a statement that must be carefully qualified and still needs further development and clarification, see link). This is something that has been sought by the nonequilibrium stat mech community for decades, and so if we suppose that we have this, it opens many possibilities. One natural next step is to try to translate the plethora of phenomena and results known from equilibrium thermodynamics to nonequilibrium systems, and verify them on experimental and numerical examples.
-Let&amp;rsquo;s now go through a few research directions in more detail:&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research directions on Rattling</title>
+    <link>http://localhost:1313/docs/research-directions/</link>
+    <description>Recent content in Research directions on Rattling</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2024–2025 rattling.org</copyright>
+    <lastBuildDate>Wed, 04 Dec 2024 18:53:05 -0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/docs/research-directions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Predicting rattling</title>
+      <link>http://localhost:1313/docs/research-directions/predicting-rattling/</link>
+      <pubDate>Wed, 04 Dec 2024 18:53:05 -0600</pubDate>
+      <guid>http://localhost:1313/docs/research-directions/predicting-rattling/</guid>
+      <description>&lt;p&gt;[For broader context, see &lt;a href=&#34;https://rattling.org/docs/background/rattling-thermo/&#34;&gt;Rattling Thermodynamics&lt;/a&gt;]&#xA;One limitation of the Rattling framework $p_{ss}(x) \approx e^{-\gamma\; \mathcal{R}(x)}/Z \tag{1}$  is that for arbitrary far-from-equilibrium nonlinear dynamical systems, it is difficult to analytically estimate Rattling of any given state $\mathcal{R}(x)$. So we often need to explicitly measure $\mathcal{R}(x)$. This still allows us to predict global steady-state in terms of only local measurements of Rattling, and so is already practically useful, but the cases where we can predict $\mathcal{R}(x)$ analytically allow for much more prediction and control.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Learning from the drive</title>
+      <link>http://localhost:1313/docs/research-directions/learning-from-the-drive/</link>
+      <pubDate>Wed, 04 Dec 2024 18:53:05 -0600</pubDate>
+      <guid>http://localhost:1313/docs/research-directions/learning-from-the-drive/</guid>
+      <description>&lt;p&gt;What makes Rattling theory especially interesting is that while it starts as a simple claim about system dynamics, it leads to a claim about information content of selected system configurations and learning from the drive.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rattling for transients</title>
+      <link>http://localhost:1313/docs/research-directions/rattling-for-transients/</link>
+      <pubDate>Wed, 04 Dec 2024 18:53:05 -0600</pubDate>
+      <guid>http://localhost:1313/docs/research-directions/rattling-for-transients/</guid>
+      <description>&lt;p&gt;Rattling 1 paper, non-ergodic relaxation&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rattling vs energy</title>
+      <link>http://localhost:1313/docs/research-directions/rattling-vs-energy/</link>
+      <pubDate>Wed, 04 Dec 2024 18:53:05 -0600</pubDate>
+      <guid>http://localhost:1313/docs/research-directions/rattling-vs-energy/</guid>
+      <description>&lt;p&gt;Rattling plays the same role in non-equilibrium steady-state distributions (for &lt;a href=&#34;http://localhost:1313/docs/background/typicality&#34;&gt;typical&lt;/a&gt; systems) as energy does in the Boltzmann distribution. This suggests comparing properties of Rattling $\mathcal{R}$ with those of energy, to see if $\mathcal{R}$ can be as powerful as energy in various contexts.&#xA;Below we present a more intuitive (physics) and more formal (math) perspective on this comparison:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rattling vs entropy</title>
+      <link>http://localhost:1313/docs/research-directions/rattling-vs-entropy/</link>
+      <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
+      <guid>http://localhost:1313/docs/research-directions/rattling-vs-entropy/</guid>
+      <description>&lt;p&gt;Rattling is just about re-scaling time. Strong parallels to entropy&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rattling thermodynamics</title>
+      <link>http://localhost:1313/docs/research-directions/rattling-thermodynamics/</link>
+      <pubDate>Wed, 04 Dec 2024 18:53:05 -0600</pubDate>
+      <guid>http://localhost:1313/docs/research-directions/rattling-thermodynamics/</guid>
+      <description>&lt;p&gt;Rattling gives us a &amp;ldquo;&lt;a href=&#34;https://rattling.org/docs/background/neq-boltzmann/&#34;&gt;Nonequilibrium Boltzmann Distribution&lt;/a&gt;&amp;rdquo; (a statement that must be carefully qualified and still needs further development and clarification, see link). This is something that has been sought by the nonequilibrium stat mech community for decades, and so if we suppose that we have this, it opens many possibilities. One natural next step is to try to translate the plethora of phenomena and results known from equilibrium thermodynamics to nonequilibrium systems, and verify them on experimental and numerical examples.&#xA;Let&amp;rsquo;s now go through a few research directions in more detail:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
