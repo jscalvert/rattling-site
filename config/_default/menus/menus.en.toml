@@ -22,7 +22,7 @@
 #  identifier = "lorem"
 #  url = "/guide/lorem/"
 
- [[main]]
+[[main]]
   name = "Background"
   url = "/docs/background/whats-rattling/"
   weight = 10

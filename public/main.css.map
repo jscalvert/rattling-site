@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/Users/jacobcalvert/Documents/GitHub/rattling-site",
+	"sourceRoot": "/Users/jacobcalvert/.claude-worktrees/rattling-site copy/beautiful-allen",
 	"sources": [
 		"node_modules/@thulite/core/assets/scss/app.scss",
 		"node_modules/bootstrap/scss/_functions.scss",
